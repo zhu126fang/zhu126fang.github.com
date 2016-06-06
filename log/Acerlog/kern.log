@@ -1,0 +1,92 @@
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.228215] cfg80211: Calling CRDA to update world regulatory domain
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.247987] cfg80211: World regulatory domain updated:
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.247995] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.247999] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.248002] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.248053] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.248057] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  1 10:23:55 Aspire-5100 kernel: [1372746.248060] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.168427] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.176890] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.188516] wlan0: authenticated
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.192406] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.213547] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  1 10:23:56 Aspire-5100 kernel: [1372747.213928] wlan0: associated
+Nov  2 07:59:21 Aspire-5100 kernel: [1450472.397909] type=1400 audit(1446422361.305:113): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=27046 comm="apparmor_parser"
+Nov  2 07:59:21 Aspire-5100 kernel: [1450472.397925] type=1400 audit(1446422361.305:114): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=27046 comm="apparmor_parser"
+Nov  2 07:59:21 Aspire-5100 kernel: [1450472.398587] type=1400 audit(1446422361.305:115): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=27046 comm="apparmor_parser"
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.139324] cfg80211: Calling CRDA to update world regulatory domain
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154498] cfg80211: World regulatory domain updated:
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154511] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154519] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154525] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154531] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154537] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456657.154542] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 09:42:26 Aspire-5100 kernel: [1456658.080700] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  2 09:42:27 Aspire-5100 kernel: [1456658.090832] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  2 09:42:27 Aspire-5100 kernel: [1456658.108068] wlan0: authenticated
+Nov  2 09:42:27 Aspire-5100 kernel: [1456658.112102] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  2 09:42:27 Aspire-5100 kernel: [1456658.122573] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  2 09:42:27 Aspire-5100 kernel: [1456658.123244] wlan0: associated
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.036596] cfg80211: Calling CRDA to update world regulatory domain
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051696] cfg80211: World regulatory domain updated:
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051709] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051716] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051723] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051729] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051735] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 11:55:46 Aspire-5100 kernel: [1464658.051740] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 11:55:47 Aspire-5100 kernel: [1464658.988251] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  2 11:55:47 Aspire-5100 kernel: [1464658.988571] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  2 11:55:47 Aspire-5100 kernel: [1464658.993792] wlan0: authenticated
+Nov  2 11:55:47 Aspire-5100 kernel: [1464659.000247] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  2 11:55:47 Aspire-5100 kernel: [1464659.004551] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  2 11:55:47 Aspire-5100 kernel: [1464659.005259] wlan0: associated
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.019082] cfg80211: Calling CRDA to update world regulatory domain
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034574] cfg80211: World regulatory domain updated:
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034586] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034594] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034600] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034606] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034612] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:39 Aspire-5100 kernel: [1475271.034618] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:40 Aspire-5100 kernel: [1475271.952798] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  2 14:52:40 Aspire-5100 kernel: [1475271.959612] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  2 14:52:40 Aspire-5100 kernel: [1475272.033635] wlan0: authenticated
+Nov  2 14:52:40 Aspire-5100 kernel: [1475272.036279] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  2 14:52:40 Aspire-5100 kernel: [1475272.039846] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  2 14:52:40 Aspire-5100 kernel: [1475272.040534] wlan0: associated
+Nov  2 14:52:44 Aspire-5100 kernel: [1475276.065068] wlan0: disassociated from 80:89:17:02:8b:05 (Reason: 2)
+Nov  2 14:52:44 Aspire-5100 kernel: [1475276.065685] wlan0: deauthenticating from 80:89:17:02:8b:05 by local choice (reason=3)
+Nov  2 14:52:44 Aspire-5100 kernel: [1475276.070689] cfg80211: Calling CRDA to update world regulatory domain
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085498] cfg80211: World regulatory domain updated:
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085510] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085518] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085524] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085530] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085536] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475276.085542] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.008323] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.020221] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.072535] wlan0: authenticated
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.076236] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.079710] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  2 14:52:45 Aspire-5100 kernel: [1475277.080122] wlan0: associated
+Nov  3 07:43:57 Aspire-5100 kernel: [1535949.079644] type=1400 audit(1446507837.987:116): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=28086 comm="apparmor_parser"
+Nov  3 07:43:57 Aspire-5100 kernel: [1535949.079660] type=1400 audit(1446507837.987:117): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=28086 comm="apparmor_parser"
+Nov  3 07:43:58 Aspire-5100 kernel: [1535949.087938] type=1400 audit(1446507837.995:118): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=28086 comm="apparmor_parser"
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.117119] cfg80211: Calling CRDA to update world regulatory domain
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133733] cfg80211: World regulatory domain updated:
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133749] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133756] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133763] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133769] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133775] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547888.133780] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.063017] wlan0: authenticate with 80:89:17:02:8b:05
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.070704] wlan0: send auth to 80:89:17:02:8b:05 (try 1/3)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.073007] wlan0: authenticated
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.076270] wlan0: associate with 80:89:17:02:8b:05 (try 1/3)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.079549] wlan0: RX AssocResp from 80:89:17:02:8b:05 (capab=0x431 status=0 aid=1)
+Nov  3 11:02:57 Aspire-5100 kernel: [1547889.080269] wlan0: associated

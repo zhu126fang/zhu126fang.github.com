@@ -1,0 +1,548 @@
+Initial commandline parameters: 
+Wed Oct 14 17:54:16 CST 2015: Running hooks for suspend.
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status suspend suspend:
+/usr/lib/pm-utils/sleep.d/000record-status suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging suspend suspend:
+Linux Aspire-5100 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 i686 athlon i686 GNU/Linux
+Module                  Size  Used by
+ctr                    12905  0 
+ccm                    17496  0 
+bnep                   18895  2 
+rfcomm                 53664  0 
+bluetooth             342206  10 bnep,rfcomm
+arc4                   12536  2 
+lm63                   20812  0 
+snd_hda_codec_realtek    55125  1 
+snd_hda_intel          42730  3 
+snd_hda_codec         164067  2 snd_hda_codec_realtek,snd_hda_intel
+acer_wmi               31735  0 
+ath5k                 134977  0 
+snd_hwdep              13272  1 snd_hda_codec
+sparse_keymap          13708  1 acer_wmi
+snd_pcm                85501  2 snd_hda_codec,snd_hda_intel
+ath                    23922  1 ath5k
+radeon               1420526  2 
+snd_page_alloc         14230  2 snd_pcm,snd_hda_intel
+kvm_amd                50537  0 
+mac80211              546051  1 ath5k
+kvm                   388083  1 kvm_amd
+snd_seq_midi           13132  0 
+snd_seq_midi_event     14475  1 snd_seq_midi
+cfg80211              409394  3 ath,ath5k,mac80211
+snd_rawmidi            25135  1 snd_seq_midi
+pcmcia                 51828  0 
+snd_seq                55383  2 snd_seq_midi_event,snd_seq_midi
+snd_seq_device         14137  3 snd_seq,snd_rawmidi,snd_seq_midi
+joydev                 17101  0 
+snd_timer              28584  2 snd_pcm,snd_seq
+yenta_socket           40201  0 
+serio_raw              13230  0 
+snd                    60871  16 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_pcm,snd_seq,snd_rawmidi,snd_hda_codec,snd_hda_intel,snd_seq_device,snd_seq_midi
+pcmcia_rsrc            18319  1 yenta_socket
+soundcore              12600  1 snd
+k8temp                 12842  0 
+pcmcia_core            22328  3 pcmcia,pcmcia_rsrc,yenta_socket
+ttm                    72698  1 radeon
+drm_kms_helper         47182  1 radeon
+drm                   244037  4 ttm,drm_kms_helper,radeon
+i2c_algo_bit           13197  1 radeon
+video                  18903  1 acer_wmi
+i2c_piix4              17723  0 
+wmi                    18673  1 acer_wmi
+ati_agp                13177  0 
+mac_hid                13037  0 
+parport_pc             31981  0 
+ppdev                  17391  0 
+lp                     13299  0 
+parport                40836  3 lp,ppdev,parport_pc
+pata_acpi              12886  0 
+8139too                32571  0 
+sdhci_pci              18535  0 
+8139cp                 27171  0 
+psmouse                91329  0 
+mii                    13654  2 8139cp,8139too
+sdhci                  37779  1 sdhci_pci
+pata_atiixp            13058  2 
+             total       used       free     shared    buffers     cached
+Mem:       1024572     501696     522876      11468      20000     313096
+-/+ buffers/cache:     168600     855972
+Swap:      1044476          0    1044476
+/usr/lib/pm-utils/sleep.d/00logging suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave suspend suspend:
+/usr/lib/pm-utils/sleep.d/00powersave suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common suspend suspend:
+/etc/pm/sleep.d/10_grub-common suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules suspend suspend:
+/usr/lib/pm-utils/sleep.d/75modules suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock suspend suspend:
+/usr/lib/pm-utils/sleep.d/90clock suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron suspend suspend:
+stop: Unknown instance: 
+/usr/lib/pm-utils/sleep.d/95anacron suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend:
+/usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led suspend suspend:
+/usr/lib/pm-utils/sleep.d/95led suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend:
+Kernel modesetting video driver detected, not using quirks.
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video suspend suspend:
+kernel.acpi_video_flags = 0
+/usr/lib/pm-utils/sleep.d/99video suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/novatel_3g_suspend suspend suspend:
+/etc/pm/sleep.d/novatel_3g_suspend suspend suspend: success.
+
+Wed Oct 14 17:54:17 CST 2015: performing suspend
+Wed Oct 14 17:56:09 CST 2015: Awake.
+Wed Oct 14 17:56:09 CST 2015: Running hooks for resume
+Running hook /etc/pm/sleep.d/novatel_3g_suspend resume suspend:
+/etc/pm/sleep.d/novatel_3g_suspend resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video resume suspend:
+/usr/lib/pm-utils/sleep.d/99video resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend:
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led resume suspend:
+/usr/lib/pm-utils/sleep.d/95led resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend:
+
+/dev/sda:
+ setting Advanced Power Management level to 0xfe (254)
+ APM_level	= 254
+/usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron resume suspend:
+/usr/lib/pm-utils/sleep.d/95anacron resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq resume suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock resume suspend:
+/usr/lib/pm-utils/sleep.d/90clock resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules resume suspend:
+Reloaded unloaded modules.
+/usr/lib/pm-utils/sleep.d/75modules resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx resume suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common resume suspend:
+/etc/pm/sleep.d/10_grub-common resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave resume suspend:
+/usr/lib/pm-utils/sleep.d/00powersave resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging resume suspend:
+/usr/lib/pm-utils/sleep.d/00logging resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status resume suspend:
+/usr/lib/pm-utils/sleep.d/000record-status resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change resume suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change resume suspend: success.
+
+Wed Oct 14 17:56:10 CST 2015: Finished.
+Initial commandline parameters: 
+Thu Oct 15 13:46:50 CST 2015: Running hooks for suspend.
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status suspend suspend:
+/usr/lib/pm-utils/sleep.d/000record-status suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging suspend suspend:
+Linux Aspire-5100 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 i686 athlon i686 GNU/Linux
+Module                  Size  Used by
+ctr                    12905  0 
+ccm                    17496  0 
+bnep                   18895  2 
+rfcomm                 53664  0 
+bluetooth             342206  10 bnep,rfcomm
+arc4                   12536  2 
+binfmt_misc            13140  1 
+lm63                   20812  0 
+snd_hda_codec_realtek    55125  1 
+snd_hda_intel          42730  3 
+acer_wmi               31735  0 
+snd_hda_codec         164067  2 snd_hda_codec_realtek,snd_hda_intel
+snd_hwdep              13272  1 snd_hda_codec
+sparse_keymap          13708  1 acer_wmi
+snd_pcm                85501  2 snd_hda_codec,snd_hda_intel
+snd_page_alloc         14230  2 snd_pcm,snd_hda_intel
+snd_seq_midi           13132  0 
+snd_seq_midi_event     14475  1 snd_seq_midi
+snd_rawmidi            25135  1 snd_seq_midi
+pcmcia                 51828  0 
+snd_seq                55383  2 snd_seq_midi_event,snd_seq_midi
+kvm_amd                50537  0 
+ath5k                 134977  0 
+radeon               1420526  2 
+snd_seq_device         14137  3 snd_seq,snd_rawmidi,snd_seq_midi
+ath                    23922  1 ath5k
+kvm                   388083  1 kvm_amd
+snd_timer              28584  2 snd_pcm,snd_seq
+yenta_socket           40201  0 
+ttm                    72698  1 radeon
+mac80211              546051  1 ath5k
+drm_kms_helper         47182  1 radeon
+snd                    60871  16 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_pcm,snd_seq,snd_rawmidi,snd_hda_codec,snd_hda_intel,snd_seq_device,snd_seq_midi
+pcmcia_rsrc            18319  1 yenta_socket
+joydev                 17101  0 
+pcmcia_core            22328  3 pcmcia,pcmcia_rsrc,yenta_socket
+k8temp                 12842  0 
+drm                   244037  4 ttm,drm_kms_helper,radeon
+serio_raw              13230  0 
+cfg80211              409394  3 ath,ath5k,mac80211
+soundcore              12600  1 snd
+i2c_piix4              17723  0 
+i2c_algo_bit           13197  1 radeon
+video                  18903  1 acer_wmi
+ati_agp                13177  0 
+wmi                    18673  1 acer_wmi
+parport_pc             31981  0 
+ppdev                  17391  0 
+lp                     13299  0 
+parport                40836  3 lp,ppdev,parport_pc
+mac_hid                13037  0 
+pata_acpi              12886  0 
+8139too                32571  0 
+sdhci_pci              18535  0 
+psmouse                91329  0 
+8139cp                 27171  0 
+sdhci                  37779  1 sdhci_pci
+mii                    13654  2 8139cp,8139too
+pata_atiixp            13058  2 
+             total       used       free     shared    buffers     cached
+Mem:       1024572     262496     762076       1156      35580     122272
+-/+ buffers/cache:     104644     919928
+Swap:      1044476          0    1044476
+/usr/lib/pm-utils/sleep.d/00logging suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave suspend suspend:
+/usr/lib/pm-utils/sleep.d/00powersave suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common suspend suspend:
+/etc/pm/sleep.d/10_grub-common suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules suspend suspend:
+/usr/lib/pm-utils/sleep.d/75modules suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock suspend suspend:
+/usr/lib/pm-utils/sleep.d/90clock suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron suspend suspend:
+stop: Unknown instance: 
+/usr/lib/pm-utils/sleep.d/95anacron suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend:
+/usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led suspend suspend:
+/usr/lib/pm-utils/sleep.d/95led suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend:
+Kernel modesetting video driver detected, not using quirks.
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video suspend suspend:
+kernel.acpi_video_flags = 0
+/usr/lib/pm-utils/sleep.d/99video suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/novatel_3g_suspend suspend suspend:
+/etc/pm/sleep.d/novatel_3g_suspend suspend suspend: success.
+
+Thu Oct 15 13:46:50 CST 2015: performing suspend
+Thu Oct 15 13:47:14 CST 2015: Awake.
+Thu Oct 15 13:47:14 CST 2015: Running hooks for resume
+Running hook /etc/pm/sleep.d/novatel_3g_suspend resume suspend:
+/etc/pm/sleep.d/novatel_3g_suspend resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video resume suspend:
+/usr/lib/pm-utils/sleep.d/99video resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend:
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led resume suspend:
+/usr/lib/pm-utils/sleep.d/95led resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend:
+
+/dev/sda:
+ setting Advanced Power Management level to 0xfe (254)
+ APM_level	= 254
+/usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron resume suspend:
+/usr/lib/pm-utils/sleep.d/95anacron resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq resume suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock resume suspend:
+/usr/lib/pm-utils/sleep.d/90clock resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules resume suspend:
+Reloaded unloaded modules.
+/usr/lib/pm-utils/sleep.d/75modules resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx resume suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common resume suspend:
+/etc/pm/sleep.d/10_grub-common resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave resume suspend:
+/usr/lib/pm-utils/sleep.d/00powersave resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging resume suspend:
+/usr/lib/pm-utils/sleep.d/00logging resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status resume suspend:
+/usr/lib/pm-utils/sleep.d/000record-status resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change resume suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change resume suspend: success.
+
+Thu Oct 15 13:47:15 CST 2015: Finished.
+Initial commandline parameters: 
+Fri Oct 16 09:06:40 CST 2015: Running hooks for suspend.
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status suspend suspend:
+/usr/lib/pm-utils/sleep.d/000record-status suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging suspend suspend:
+Linux Aspire-5100 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 i686 athlon i686 GNU/Linux
+Module                  Size  Used by
+ctr                    12905  0 
+ccm                    17496  0 
+arc4                   12536  2 
+lm63                   20812  0 
+snd_hda_codec_realtek    55125  1 
+snd_hda_intel          42730  3 
+rfcomm                 53664  0 
+bnep                   18895  2 
+snd_hda_codec         164067  2 snd_hda_codec_realtek,snd_hda_intel
+bluetooth             342206  10 bnep,rfcomm
+acer_wmi               31735  0 
+snd_hwdep              13272  1 snd_hda_codec
+sparse_keymap          13708  1 acer_wmi
+snd_pcm                85501  2 snd_hda_codec,snd_hda_intel
+snd_page_alloc         14230  2 snd_pcm,snd_hda_intel
+snd_seq_midi           13132  0 
+binfmt_misc            13140  1 
+snd_seq_midi_event     14475  1 snd_seq_midi
+ath5k                 134977  0 
+snd_rawmidi            25135  1 snd_seq_midi
+radeon               1420526  2 
+kvm_amd                50537  0 
+pcmcia                 51828  0 
+ath                    23922  1 ath5k
+snd_seq                55383  2 snd_seq_midi_event,snd_seq_midi
+kvm                   388083  1 kvm_amd
+ttm                    72698  1 radeon
+mac80211              546051  1 ath5k
+snd_seq_device         14137  3 snd_seq,snd_rawmidi,snd_seq_midi
+snd_timer              28584  2 snd_pcm,snd_seq
+drm_kms_helper         47182  1 radeon
+joydev                 17101  0 
+yenta_socket           40201  0 
+snd                    60871  16 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_pcm,snd_seq,snd_rawmidi,snd_hda_codec,snd_hda_intel,snd_seq_device,snd_seq_midi
+cfg80211              409394  3 ath,ath5k,mac80211
+pcmcia_rsrc            18319  1 yenta_socket
+serio_raw              13230  0 
+k8temp                 12842  0 
+drm                   244037  4 ttm,drm_kms_helper,radeon
+pcmcia_core            22328  3 pcmcia,pcmcia_rsrc,yenta_socket
+soundcore              12600  1 snd
+i2c_piix4              17723  0 
+i2c_algo_bit           13197  1 radeon
+ati_agp                13177  0 
+video                  18903  1 acer_wmi
+wmi                    18673  1 acer_wmi
+mac_hid                13037  0 
+parport_pc             31981  0 
+ppdev                  17391  0 
+lp                     13299  0 
+parport                40836  3 lp,ppdev,parport_pc
+pata_acpi              12886  0 
+8139too                32571  0 
+sdhci_pci              18535  0 
+psmouse                91329  0 
+8139cp                 27171  0 
+sdhci                  37779  1 sdhci_pci
+mii                    13654  2 8139cp,8139too
+pata_atiixp            13058  2 
+             total       used       free     shared    buffers     cached
+Mem:       1024572     431808     592764       9300      77260     202268
+-/+ buffers/cache:     152280     872292
+Swap:      1044476          0    1044476
+/usr/lib/pm-utils/sleep.d/00logging suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave suspend suspend:
+/usr/lib/pm-utils/sleep.d/00powersave suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common suspend suspend:
+/etc/pm/sleep.d/10_grub-common suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules suspend suspend:
+/usr/lib/pm-utils/sleep.d/75modules suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock suspend suspend:
+/usr/lib/pm-utils/sleep.d/90clock suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron suspend suspend:
+stop: Unknown instance: 
+/usr/lib/pm-utils/sleep.d/95anacron suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend:
+/usr/lib/pm-utils/sleep.d/95hdparm-apm suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led suspend suspend:
+/usr/lib/pm-utils/sleep.d/95led suspend suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend:
+Kernel modesetting video driver detected, not using quirks.
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler suspend suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video suspend suspend:
+kernel.acpi_video_flags = 0
+/usr/lib/pm-utils/sleep.d/99video suspend suspend: success.
+
+Running hook /etc/pm/sleep.d/novatel_3g_suspend suspend suspend:
+/etc/pm/sleep.d/novatel_3g_suspend suspend suspend: success.
+
+Fri Oct 16 09:06:40 CST 2015: performing suspend
+Fri Oct 16 12:55:32 CST 2015: Awake.
+Fri Oct 16 12:55:32 CST 2015: Running hooks for resume
+Running hook /etc/pm/sleep.d/novatel_3g_suspend resume suspend:
+/etc/pm/sleep.d/novatel_3g_suspend resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/99video resume suspend:
+/usr/lib/pm-utils/sleep.d/99video resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend:
+/usr/lib/pm-utils/sleep.d/98video-quirk-db-handler resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95led resume suspend:
+/usr/lib/pm-utils/sleep.d/95led resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend:
+
+/dev/sda:
+ setting Advanced Power Management level to 0xfe (254)
+ APM_level	= 254
+/usr/lib/pm-utils/sleep.d/95hdparm-apm resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/95anacron resume suspend:
+/usr/lib/pm-utils/sleep.d/95anacron resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/94cpufreq resume suspend:
+/usr/lib/pm-utils/sleep.d/94cpufreq resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/90clock resume suspend:
+/usr/lib/pm-utils/sleep.d/90clock resume suspend: not applicable.
+
+Running hook /usr/lib/pm-utils/sleep.d/75modules resume suspend:
+Reloaded unloaded modules.
+/usr/lib/pm-utils/sleep.d/75modules resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend:
+Failed to connect to non-global ctrl_ifname: (null)  error: No such file or directory
+/usr/lib/pm-utils/sleep.d/60_wpa_supplicant resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/50unload_alx resume suspend:
+/usr/lib/pm-utils/sleep.d/50unload_alx resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend:
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate resume suspend: success.
+
+Running hook /etc/pm/sleep.d/10_grub-common resume suspend:
+/etc/pm/sleep.d/10_grub-common resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00powersave resume suspend:
+/usr/lib/pm-utils/sleep.d/00powersave resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/00logging resume suspend:
+/usr/lib/pm-utils/sleep.d/00logging resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000record-status resume suspend:
+/usr/lib/pm-utils/sleep.d/000record-status resume suspend: success.
+
+Running hook /usr/lib/pm-utils/sleep.d/000kernel-change resume suspend:
+/usr/lib/pm-utils/sleep.d/000kernel-change resume suspend: success.
+
+Fri Oct 16 12:55:33 CST 2015: Finished.

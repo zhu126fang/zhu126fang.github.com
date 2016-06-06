@@ -1,0 +1,102 @@
+[+0.00s] DEBUG: unity-greeter.vala:496: Starting unity-greeter 14.04.10 UID=112 LANG=zh_CN.UTF-8
+[+0.00s] DEBUG: unity-greeter.vala:499: Setting cursor
+[+0.00s] DEBUG: unity-greeter.vala:513: Loading command line options
+[+0.00s] DEBUG: unity-greeter.vala:541: Setting GTK+ settings
+[+0.17s] DEBUG: unity-greeter.vala:564: Creating Unity Greeter
+[+0.17s] DEBUG: unity-greeter.vala:57: Creating background surface
+[+0.17s] DEBUG: Connecting to display manager...
+[+0.17s] DEBUG: Wrote 18 bytes to daemon
+[+0.17s] DEBUG: Read 8 bytes from daemon
+[+0.17s] DEBUG: Read 176 bytes from daemon
+[+0.17s] DEBUG: Connected version=1.10.1 default-session=ubuntu show-manual-login=false hide-users=false has-guest-account=true select-user=francis show-remote-login=true
+[+0.26s] DEBUG: menubar.vala:335: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+0.27s] DEBUG: menubar.vala:367: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+0.31s] DEBUG: Loading users from org.freedesktop.Accounts
+[+0.31s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+0.33s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+0.34s] DEBUG: Loading sessions from org.freedesktop.DisplayManager
+[+0.34s] DEBUG: Loaded session /org/freedesktop/DisplayManager/Session0 (guest-mJEopL)
+[+0.34s] DEBUG: user-list.vala:1012: Adding guest account entry
+[+0.47s] DEBUG: Loaded session /usr/share/xsessions/ubuntu.desktop (Ubuntu, This session logs you into Ubuntu)
+[+0.47s] DEBUG: Starting authentication for user francis...
+[+0.47s] DEBUG: Wrote 23 bytes to daemon
+[+0.50s] DEBUG: main-window.vala:185: Screen is 1024x768 pixels
+[+0.50s] DEBUG: main-window.vala:193: Monitor 0 is 1024x768 pixels at 0,0
+[+0.50s] DEBUG: main-window.vala:193: Monitor 1 is 1024x768 pixels at 0,0
+[+0.50s] DEBUG: unity-greeter.vala:567: Showing greeter
+[+0.50s] DEBUG: unity-greeter.vala:252: Showing main window
+[+0.52s] DEBUG: background.vala:483: Regenerating backgrounds
+[+0.52s] DEBUG: background.vala:68: Making background /usr/share/backgrounds/warty-final-ubuntukylin.jpg at 1024x768
+[+0.59s] DEBUG: unity-greeter.vala:610: Starting main loop
+[+0.59s] DEBUG: Read 8 bytes from daemon
+[+0.59s] DEBUG: Read 37 bytes from daemon
+[+0.59s] DEBUG: Prompt user with 1 message(s)
+[+1.31s] DEBUG: settings-daemon.vala:75: Acquired org.gnome.SessionManager
+[+1.31s] DEBUG: settings-daemon.vala:105: Failed to acquire name org.gnome.ScreenSaver
+[+1.31s] DEBUG: Connected to Application Indicator Service.
+[+1.45s] DEBUG: menubar.vala:537: Adding indicator object 0x9cbe3ec at position 0
+[+1.47s] DEBUG: menubar.vala:537: Adding indicator object 0x9cbe56c at position 1
+[+1.48s] DEBUG: menubar.vala:537: Adding indicator object 0x9cbe6ec at position 2
+[+1.57s] DEBUG: Request current apps
+[+1.77s] DEBUG: menubar.vala:537: Adding indicator object 0x9d7d0b4 at position 2
+[+1.95s] DEBUG: menubar.vala:537: Adding indicator object 0x9cbe26c at position 4
+[+1.99s] DEBUG: unity-greeter.vala:235: starting system-ready sound
+[+2.02s] DEBUG: background.vala:121: Render of background /usr/share/backgrounds/warty-final-ubuntukylin.jpg complete
+[+3.06s] DEBUG: Building new application entry: :1.22  with icon: nm-no-connection at position 0
+[+3.08s] DEBUG: menubar.vala:537: Adding indicator object 0x9ed1600 at position 5
+[+9.94s] DEBUG: Providing response to display manager
+[+9.94s] DEBUG: Wrote 22 bytes to daemon
+[+10.20s] DEBUG: Read 8 bytes from daemon
+[+10.20s] DEBUG: Read 19 bytes from daemon
+[+10.20s] DEBUG: Authentication complete for user francis with return code 0
+[+10.20s] DEBUG: Starting default session
+[+10.20s] DEBUG: Wrote 12 bytes to daemon
+[+10.23s] DEBUG: Read 8 bytes from daemon
+[+10.23s] DEBUG: Read 4 bytes from daemon
+[+10.23s] DEBUG: unity-greeter.vala:605: Got a SIGTERM
+[+10.23s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+init: indicator-messages main 进程结束, 重新产生
+init: indicator-bluetooth main 进程 (2311)已经被TERM 信号杀死
+init: indicator-bluetooth main 进程结束, 重新产生
+init: indicator-power main 进程 (2313)已经被TERM 信号杀死
+init: indicator-power main 进程结束, 重新产生
+init: indicator-sound main 进程结束, 重新产生
+init: indicator-datetime main 进程 (2319)已经被TERM 信号杀死
+init: indicator-datetime main 进程结束, 重新产生
+init: indicator-session main 进程 (2322)已经被TERM 信号杀死
+init: indicator-session main 进程结束, 重新产生
+init: indicator-application main 进程 (2331)已经被TERM 信号杀死
+init: indicator-application main 进程结束, 重新产生
+init: indicator-messages main 进程结束, 重新产生
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+nm-applet-Message: PID 2309 (we are 2309) sent signal 15, shutting down...
+
+(nm-applet:2309): libappindicator-WARNING **: Unable to send signal for NewStatus: 连接已关闭
+init: indicator-application main 进程结束, 重新产生
+init: indicator-session main 进程结束, 重新产生
+init: indicator-messages 重新建立过快，停止
+init: indicator-datetime main 进程结束, 重新产生
+init: indicator-application 重新建立过快，停止
+init: indicator-power main 进程结束, 重新产生
+init: indicator-session 重新建立过快，停止
+
+(nm-applet:2309): GLib-CRITICAL **: Source ID 230 was not found when attempting to remove it
+init: indicator-datetime 重新建立过快，停止
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power main 进程结束, 重新产生
+init: indicator-power 重新建立过快，停止
+[+11.50s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+11.50s] DEBUG: settings-daemon.vala:78: Failed to acquire name org.gnome.SessionManager
+[+11.50s] DEBUG: unity-greeter.vala:135: Failed to acquire name com.canonical.Unity
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+[+11.52s] DEBUG: unity-greeter.vala:613: Cleaning up
+[+11.52s] DEBUG: unity-greeter.vala:621: Upstart exited with return value 0
+[+11.52s] DEBUG: unity-greeter.vala:633: AT-SPI exited with return value 0
+[+11.52s] DEBUG: unity-greeter.vala:639: Exiting
+init: indicator-bluetooth main 进程 (2457)已经被TERM 信号杀死

@@ -1,0 +1,131 @@
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+
+** (at-spi2-registryd:1278): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1278): WARNING **: Unable to register client with session manager
+[+0.00s] DEBUG: unity-greeter.vala:496: Starting unity-greeter 14.04.10 UID=112 LANG=zh_CN.UTF-8
+[+0.00s] DEBUG: unity-greeter.vala:499: Setting cursor
+[+0.09s] DEBUG: unity-greeter.vala:513: Loading command line options
+[+0.09s] DEBUG: unity-greeter.vala:541: Setting GTK+ settings
+[+0.60s] DEBUG: unity-greeter.vala:564: Creating Unity Greeter
+[+0.60s] DEBUG: unity-greeter.vala:57: Creating background surface
+[+0.70s] DEBUG: Connecting to display manager...
+[+0.70s] DEBUG: Wrote 18 bytes to daemon
+[+0.70s] DEBUG: Read 8 bytes from daemon
+[+0.70s] DEBUG: Read 150 bytes from daemon
+[+0.70s] DEBUG: Connected version=1.10.1 default-session=ubuntu show-manual-login=false hide-users=false has-guest-account=true show-remote-login=true
+[+1.15s] DEBUG: menubar.vala:335: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+2.03s] DEBUG: menubar.vala:367: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+2.11s] DEBUG: Loading users from org.freedesktop.Accounts
+[+2.11s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+2.14s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+2.14s] DEBUG: Loading sessions from org.freedesktop.DisplayManager
+[+2.15s] DEBUG: user-list.vala:1012: Adding guest account entry
+[+3.23s] DEBUG: Loaded session /usr/share/xsessions/ubuntu.desktop (Ubuntu, This session logs you into Ubuntu)
+[+3.23s] DEBUG: Starting authentication for user francis...
+[+3.23s] DEBUG: Wrote 23 bytes to daemon
+[+3.26s] DEBUG: main-window.vala:185: Screen is 1280x800 pixels
+[+3.26s] DEBUG: main-window.vala:193: Monitor 0 is 1280x800 pixels at 0,0
+[+3.26s] DEBUG: unity-greeter.vala:567: Showing greeter
+[+3.26s] DEBUG: unity-greeter.vala:252: Showing main window
+[+3.28s] DEBUG: background.vala:483: Regenerating backgrounds
+[+3.28s] DEBUG: background.vala:68: Making background /usr/share/backgrounds/warty-final-ubuntukylin.jpg at 1280x800
+[+3.30s] DEBUG: unity-greeter.vala:610: Starting main loop
+[+3.31s] DEBUG: Read 8 bytes from daemon
+[+3.31s] DEBUG: Read 37 bytes from daemon
+[+3.31s] DEBUG: Prompt user with 1 message(s)
+[+3.89s] DEBUG: background.vala:68: Making background /usr/share/backgrounds/autumn.jpg at 1280x800
+[+3.92s] DEBUG: settings-daemon.vala:75: Acquired org.gnome.SessionManager
+[+3.92s] DEBUG: settings-daemon.vala:102: Acquired org.gnome.ScreenSaver
+[+3.92s] DEBUG: settings-daemon.vala:159: All bus names acquired, starting unity-settings-daemon
+[+3.95s] DEBUG: Connected to Application Indicator Service.
+[+5.67s] DEBUG: menubar.vala:537: Adding indicator object 0x99c23ec at position 0
+[+5.93s] DEBUG: Request current apps
+[+5.93s] DEBUG: unity-greeter.vala:235: starting system-ready sound
+
+** (unity-settings-daemon:1369): WARNING **: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 无此方法：RegisterClient
+[+8.20s] DEBUG: background.vala:121: Render of background /usr/share/backgrounds/warty-final-ubuntukylin.jpg complete
+[+8.42s] DEBUG: background.vala:121: Render of background /usr/share/backgrounds/autumn.jpg complete
+[+8.70s] DEBUG: Building new application entry: :1.16  with icon: nm-no-connection at position 0
+[+8.89s] DEBUG: menubar.vala:537: Adding indicator object 0x9b783f0 at position 1
+[+9.33s] DEBUG: menubar.vala:537: Adding indicator object 0x99c26ec at position 1
+[+9.36s] DEBUG: menubar.vala:537: Adding indicator object 0x99c256c at position 1
+[+9.47s] DEBUG: menubar.vala:537: Adding indicator object 0x99fe8b4 at position 2
+[+10.49s] DEBUG: menubar.vala:537: Adding indicator object 0x99c226c at position 4
+[+294.21s] DEBUG: settings-daemon.vala:209: Screensaver activated
+[+928.74s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+928.91s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+2524.61s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+2524.78s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+3135.32s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+3135.51s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+3245.73s] DEBUG: Providing response to display manager
+[+3245.73s] DEBUG: Wrote 16 bytes to daemon
+[+3245.74s] DEBUG: settings-daemon.vala:211: Screensaver disabled
+[+3247.47s] DEBUG: Read 8 bytes from daemon
+[+3247.47s] DEBUG: Read 19 bytes from daemon
+[+3247.47s] DEBUG: Authentication complete for user francis with return code 7
+[+3247.47s] DEBUG: Starting authentication for user francis...
+[+3247.47s] DEBUG: Wrote 23 bytes to daemon
+[+3247.50s] DEBUG: Read 8 bytes from daemon
+[+3247.50s] DEBUG: Read 37 bytes from daemon
+[+3247.50s] DEBUG: Prompt user with 1 message(s)
+[+3252.32s] DEBUG: Providing response to display manager
+[+3252.32s] DEBUG: Wrote 19 bytes to daemon
+[+3254.71s] DEBUG: Read 8 bytes from daemon
+[+3254.71s] DEBUG: Read 19 bytes from daemon
+[+3254.71s] DEBUG: Authentication complete for user francis with return code 7
+[+3254.71s] DEBUG: Starting authentication for user francis...
+[+3254.71s] DEBUG: Wrote 23 bytes to daemon
+[+3254.74s] DEBUG: Read 8 bytes from daemon
+[+3254.74s] DEBUG: Read 37 bytes from daemon
+[+3254.74s] DEBUG: Prompt user with 1 message(s)
+[+3264.03s] DEBUG: Providing response to display manager
+[+3264.03s] DEBUG: Wrote 22 bytes to daemon
+[+3264.23s] DEBUG: Read 8 bytes from daemon
+[+3264.23s] DEBUG: Read 19 bytes from daemon
+[+3264.23s] DEBUG: Authentication complete for user francis with return code 0
+[+3264.24s] DEBUG: Starting session ubuntu
+[+3264.24s] DEBUG: Wrote 18 bytes to daemon
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+[+3264.26s] DEBUG: Read 8 bytes from daemon
+[+3264.26s] DEBUG: Read 4 bytes from daemon
+[+3264.26s] DEBUG: unity-greeter.vala:605: Got a SIGTERM
+[+3264.26s] DEBUG: settings-daemon.vala:78: Failed to acquire name org.gnome.SessionManager
+[+3264.26s] DEBUG: settings-daemon.vala:105: Failed to acquire name org.gnome.ScreenSaver
+[+3264.26s] DEBUG: unity-greeter.vala:135: Failed to acquire name com.canonical.Unity
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+** (unity-settings-daemon:1369): WARNING **: Name taken or bus went away - shutting down
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+nm-applet-Message: PID 1318 (we are 1318) sent signal 15, shutting down...
+
+(nm-applet:1318): libappindicator-WARNING **: Unable to send signal for NewStatus: 连接已关闭
+init: indicator-messages main 进程结束, 重新产生
+init: indicator-bluetooth main 进程 (1324)已经被TERM 信号杀死
+init: indicator-bluetooth main 进程结束, 重新产生
+init: indicator-power main 进程 (1325)已经被TERM 信号杀死
+init: indicator-power main 进程结束, 重新产生
+init: indicator-datetime main 进程 (1326)已经被TERM 信号杀死
+init: indicator-datetime main 进程结束, 重新产生
+init: indicator-sound main 进程结束, 重新产生
+init: indicator-session main 进程 (1329)已经被TERM 信号杀死
+init: indicator-session main 进程结束, 重新产生
+[+3264.34s] DEBUG: unity-greeter.vala:613: Cleaning up
+[+3264.34s] DEBUG: unity-greeter.vala:621: Upstart exited with return value 0
+[+3264.34s] DEBUG: unity-greeter.vala:633: AT-SPI exited with return value 0
+[+3264.34s] DEBUG: unity-greeter.vala:639: Exiting
+
+(unity-settings-daemon:1369): dconf-WARNING **: failed to commit changes to dconf: 连接已关闭
+g_dbus_connection_real_closed: Remote peer vanished with error: 接受信息出错：连接被对端重置 (g-io-error-quark, 0). Exiting.
+init: indicator-application main 进程 (1330)已经被TERM 信号杀死
+init: indicator-application main 进程结束, 重新产生
+init: indicator-bluetooth main 进程 (2009)已经被TERM 信号杀死
+init: indicator-power main 进程 (2010)已经被TERM 信号杀死
+init: indicator-datetime main 进程 (2011)已经被TERM 信号杀死
+init: indicator-sound main 进程 (2013)已经被TERM 信号杀死
+init: indicator-session main 进程 (2014)已经被TERM 信号杀死
+
+(nm-applet:1318): GLib-CRITICAL **: Source ID 196 was not found when attempting to remove it

@@ -1,0 +1,2 @@
+localhost - - [03/Nov/2015:13:41:56 +0800] "POST / HTTP/1.1" 401 186 Renew-Subscription successful-ok
+localhost - francis [03/Nov/2015:13:41:56 +0800] "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok

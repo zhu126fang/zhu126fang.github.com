@@ -1,0 +1,129 @@
+[+0.11s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.11s] DEBUG: Starting Light Display Manager 1.10.1, UID=0 PID=1028
+[+0.11s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.11s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.11s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.11s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+[+0.11s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf
+[+0.11s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.11s] DEBUG: Loading configuration dirs from /usr/local/share/lightdm/lightdm.conf.d
+[+0.11s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.11s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.11s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.11s] DEBUG: Registered seat module xlocal
+[+0.11s] DEBUG: Registered seat module xremote
+[+0.11s] DEBUG: Registered seat module unity
+[+0.11s] DEBUG: Registered seat module surfaceflinger
+[+0.17s] DEBUG: Adding default seat
+[+0.17s] DEBUG: Seat: Starting
+[+0.17s] DEBUG: Seat: Creating greeter session
+[+0.17s] DEBUG: Seat: Creating display server of type x
+[+0.65s] DEBUG: Deactivating Plymouth
+[+0.90s] DEBUG: Using VT 7
+[+0.90s] DEBUG: Seat: Starting local X display on VT 7
+[+0.90s] DEBUG: DisplayServer x-0: Logging to /var/log/lightdm/x-0.log
+[+0.90s] DEBUG: DisplayServer x-0: Writing X server authority to /var/run/lightdm/root/:0
+[+0.90s] DEBUG: DisplayServer x-0: Launching X Server
+[+0.90s] DEBUG: Launching process 1083: /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+[+0.92s] DEBUG: DisplayServer x-0: Waiting for ready signal from X server :0
+[+0.92s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.92s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+2.25s] DEBUG: Loading users from org.freedesktop.Accounts
+[+2.25s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+4.83s] DEBUG: Got signal 10 from process 1083
+[+4.83s] DEBUG: DisplayServer x-0: Got signal from X server :0
+[+4.83s] DEBUG: DisplayServer x-0: Connecting to XServer :0
+[+4.83s] DEBUG: Quitting Plymouth; retaining splash
+[+4.89s] DEBUG: Seat: Display server ready, starting session authentication
+[+4.90s] DEBUG: Session pid=1232: Started with service 'lightdm-greeter', username 'lightdm'
+[+5.00s] DEBUG: Session pid=1232: Authentication complete with return value 0: Success
+[+5.00s] DEBUG: Seat: Session authenticated, running command
+[+5.00s] DEBUG: Session pid=1232: Running command /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/unity-greeter
+[+5.05s] DEBUG: Creating shared data directory /var/lib/lightdm-data/lightdm
+[+5.05s] DEBUG: Session pid=1232: Logging to /var/log/lightdm/x-0-greeter.log
+[+5.13s] DEBUG: Activating VT 7
+[+5.13s] DEBUG: Activating login1 session /org/freedesktop/login1/session/c1
+[+11.37s] DEBUG: Session pid=1232: Greeter connected version=1.10.1
+[+13.91s] DEBUG: Session pid=1232: Greeter start authentication for francis
+[+13.91s] DEBUG: Session pid=1313: Started with service 'lightdm', username 'francis'
+[+13.94s] DEBUG: Session pid=1313: Got 1 message(s) from PAM
+[+13.94s] DEBUG: Session pid=1232: Prompt greeter with 1 message(s)
+[+939.42s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+2535.28s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+3146.00s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+3256.40s] DEBUG: Session pid=1232: Continue authentication
+[+3258.14s] DEBUG: Session pid=1313: Authentication complete with return value 7: Authentication failure
+[+3258.14s] DEBUG: Session pid=1232: Authenticate result for user francis: Authentication failure
+[+3258.15s] DEBUG: Session pid=1232: Greeter start authentication for francis
+[+3258.15s] DEBUG: Session pid=1313: Sending SIGTERM
+[+3258.15s] DEBUG: Session pid=1994: Started with service 'lightdm', username 'francis'
+[+3258.16s] DEBUG: Session pid=1313: Exited with return value 1
+[+3258.16s] DEBUG: Seat: Session stopped
+[+3258.17s] DEBUG: Session pid=1994: Got 1 message(s) from PAM
+[+3258.17s] DEBUG: Session pid=1232: Prompt greeter with 1 message(s)
+[+3262.99s] DEBUG: Session pid=1232: Continue authentication
+[+3265.38s] DEBUG: Session pid=1994: Authentication complete with return value 7: Authentication failure
+[+3265.38s] DEBUG: Session pid=1232: Authenticate result for user francis: Authentication failure
+[+3265.38s] DEBUG: Session pid=1994: Exited with return value 1
+[+3265.38s] DEBUG: Seat: Session stopped
+[+3265.38s] DEBUG: Session pid=1232: Greeter start authentication for francis
+[+3265.38s] DEBUG: Session pid=1995: Started with service 'lightdm', username 'francis'
+[+3265.41s] DEBUG: Session pid=1995: Got 1 message(s) from PAM
+[+3265.41s] DEBUG: Session pid=1232: Prompt greeter with 1 message(s)
+[+3274.70s] DEBUG: Session pid=1232: Continue authentication
+[+3274.91s] DEBUG: Session pid=1995: Authentication complete with return value 0: Success
+[+3274.91s] DEBUG: Session pid=1232: Authenticate result for user francis: Success
+[+3274.91s] DEBUG: Session pid=1232: User francis authorized
+[+3274.91s] DEBUG: Session pid=1232: Greeter requests session ubuntu
+[+3274.91s] DEBUG: Seat: Stopping greeter; display server will be re-used for user session
+[+3274.91s] DEBUG: Session pid=1232: Sending SIGTERM
+[+3274.99s] DEBUG: Session pid=1232: Exited with return value 0
+[+3274.99s] DEBUG: Seat: Session stopped
+[+3274.99s] DEBUG: Seat: Greeter stopped, running session
+[+3274.99s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+3275.02s] DEBUG: Session pid=1995: Running command /usr/sbin/lightdm-session gnome-session --session=ubuntu
+[+3275.02s] DEBUG: Creating shared data directory /var/lib/lightdm-data/francis
+[+3275.02s] DEBUG: Session pid=1995: Logging to .xsession-errors
+[+3275.18s] DEBUG: Activating VT 7
+[+3275.18s] DEBUG: Activating login1 session /org/freedesktop/login1/session/c2
+[+3276.52s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+4563.24s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+247156.30s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+247337.80s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+428691.17s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+428728.67s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+438060.04s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+438375.96s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+523739.68s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+523740.85s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+534652.61s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+534718.57s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+593623.89s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+593638.04s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+618980.09s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+620701.10s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+621606.35s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+623131.77s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+623143.37s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+623221.50s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+623252.67s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+627833.34s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1023332.17s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1032018.56s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1034439.16s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1038778.10s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1038901.71s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1039084.78s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1040102.23s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1043319.29s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1043647.32s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1045408.22s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214739.41s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214759.32s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214782.93s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214801.96s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214839.83s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214928.66s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1214997.90s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1215010.55s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+1564762.10s] DEBUG: User /org/freedesktop/Accounts/User1000 changed

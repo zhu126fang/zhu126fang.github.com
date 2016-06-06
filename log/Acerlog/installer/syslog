@@ -1,0 +1,1889 @@
+Oct 14 14:53:20 ubuntu-kylin rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="1042" x-info="http://www.rsyslog.com"] start
+Oct 14 14:53:20 ubuntu-kylin rsyslogd: rsyslogd's groupid changed to 104
+Oct 14 14:53:20 ubuntu-kylin rsyslogd: rsyslogd's userid changed to 101
+Oct 14 14:53:20 ubuntu-kylin rsyslogd-2039: Could no open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Linux version 3.13.0-32-generic (buildd@roseapple) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 (Ubuntu 3.13.0-32.57-generic 3.13.11.4)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] KERNEL supported cpus:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Intel GenuineIntel
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   AMD AuthenticAMD
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   NSC Geode by NSC
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Cyrix CyrixInstead
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Centaur CentaurHauls
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Transmeta GenuineTMx86
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Transmeta TransmetaCPU
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   UMC UMC UMC UMC
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009d7ff] usable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x000000000009d800-0x000000000009ffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x00000000000d2000-0x00000000000fffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fe8ffff] usable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x000000003fe90000-0x000000003fe99fff] ACPI data
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x000000003fe9a000-0x000000003fefffff] ACPI NVS
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x000000003ff00000-0x000000003fffffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BIOS-e820: [mem 0x00000000fff80000-0x00000000ffffffff] reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] SMBIOS 2.4 present.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] DMI: Acer             Aspire 5100     /Navarro, BIOS V2.00 08/03/2006
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] e820: last_pfn = 0x3fe90 max_arch_pfn = 0x1000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] MTRR default type: uncachable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] MTRR fixed ranges enabled:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   00000-9FFFF write-back
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   A0000-BFFFF uncachable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   C0000-D3FFF write-protect
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   D4000-E3FFF uncachable
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   E4000-FFFFF write-protect
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] MTRR variable ranges enabled:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   0 base 0000000000 mask FFC0000000 write-back
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   1 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   2 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   3 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   4 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   5 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   6 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   7 disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] found SMP MP-table at [mem 0x000f8110-0x000f811f] mapped at [c00f8110]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x01ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Base memory trampoline at [c0099000] 99000 size 16384
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] init_memory_mapping: [mem 0x37800000-0x379fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x37800000-0x379fffff] page 2M
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] init_memory_mapping: [mem 0x34000000-0x377fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x34000000-0x377fffff] page 2M
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x33ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x00200000-0x33ffffff] page 2M
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] init_memory_mapping: [mem 0x37a00000-0x37bfdfff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]  [mem 0x37a00000-0x37bfdfff] page 4k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BRK [0x01b8e000, 0x01b8efff] PGTABLE
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] RAMDISK: [mem 0x3e881000-0x3fe8ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Allocated new RAMDISK: [mem 0x365ef000-0x37bfdd59]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Move RAMDISK from [mem 0x3e881000-0x3fe8fd59] to [mem 0x365ef000-0x37bfdd59]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: RSDP 000f80e0 000014 (v00 PTLTD )
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: RSDT 3fe91ffd 000034 (v01 PTLTD    RSDT   06040000  LTP 00000000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: FACP 3fe99df5 000074 (v01 ATI    Bowfin   06040000 ATI  000F4240)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: DSDT 3fe92031 007DC4 (v01   Acer  Navarro 06040000 MSFT 0100000E)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: FACS 3fe9afc0 000040
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: SSDT 3fe99e69 000115 (v01 PTLTD  POWERNOW 06040000  LTP 00000001)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: APIC 3fe99f7e 000046 (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: MCFG 3fe99fc4 00003C (v01 PTLTD    MCFG   06040000  LTP 00000000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] 130MB HIGHMEM available.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] 891MB LOWMEM available.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   mapped low ram: 0 - 37bfe000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   low ram: 0 - 37bfe000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] BRK [0x01b8f000, 0x01b8ffff] PGTABLE
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Zone ranges:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Normal   [mem 0x01000000-0x37bfdfff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   HighMem  [mem 0x37bfe000-0x3fe8ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Movable zone start for each node
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Early memory node ranges
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009cfff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   node   0: [mem 0x00100000-0x3fe8ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] On node 0 totalpages: 261676
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] free_area_init_node: node 0, pgdat c1997200, node_mem_map f5def020
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Normal zone: 1752 pages used for memmap
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   Normal zone: 224254 pages, LIFO batch:31
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   HighMem zone: 262 pages used for memmap
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]   HighMem zone: 33426 pages, LIFO batch:7
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Using APIC driver default
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] SB4X0 revision 0x83
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Ignoring ACPI timer override.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] If you got timer trouble try acpi_use_timer_override
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Detected use of extended apic ids on hypertransport bus
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x8008
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 33, address 0xfec00000, GSI 0-23
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] nr_irqs_gsi: 40
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000d1fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000d2000-0x000fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] e820: [mem 0x40000000-0xdfffffff] available for PCI devices
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] setup_percpu: NR_CPUS:8 nr_cpumask_bits:8 nr_cpu_ids:1 nr_node_ids:1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PERCPU: Embedded 14 pages/cpu @f5dda000 s36096 r0 d21248 u57344
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] pcpu-alloc: s36096 r0 d21248 u57344 alloc=14*4096
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 259892
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Kernel command line: file=/cdrom/preseed/ubuntu.seed boot=casper initrd=/casper/initrd.lz quiet splash -- locale=zh_CN keyboard-configuration/layoutcode?=cn maybe-ubiquity
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Initializing CPU#0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] allocated 2094200 bytes of page_cgroup
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Initializing HighMem for node 0 (00037bfe:0003fe90)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Memory: 1001080K/1046704K available (6528K kernel code, 639K rwdata, 2760K rodata, 872K init, 924K bss, 45624K reserved, 133704K highmem)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] virtual kernel memory layout:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]     fixmap  : 0xfff14000 - 0xfffff000   ( 940 kB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]     vmalloc : 0xf83fe000 - 0xffbfe000   ( 120 MB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xf7bfe000   ( 891 MB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]       .init : 0xc19b4000 - 0xc1a8e000   ( 872 kB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]       .data : 0xc1660532 - 0xc19b3e80   (3406 kB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000]       .text : 0xc1000000 - 0xc1660532   (6529 kB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=1.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] NR_IRQS:2304 nr_irqs:256 16
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] CPU 0 irqstacks, hard=f5408000 soft=f540a000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] Console: colour VGA+ 80x25
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] console [tty0] enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.000000] tsc: Detected 1995.026 MHz processor
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004002] Calibrating delay loop (skipped), value calculated using timer frequency.. 3990.05 BogoMIPS (lpj=7980104)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004007] pid_max: default: 32768 minimum: 301
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004052] Security Framework initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004074] AppArmor: AppArmor initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004076] Yama: becoming mindful.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004151] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004154] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004487] Initializing cgroup subsys memory
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004498] Initializing cgroup subsys devices
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004501] Initializing cgroup subsys freezer
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004503] Initializing cgroup subsys blkio
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004506] Initializing cgroup subsys perf_event
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004510] Initializing cgroup subsys hugetlb
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004544] mce: CPU supports 5 MCE banks
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004554] LVT offset 0 assigned for vector 0xf9
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004559] process: using AMD E400 aware idle routine
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004571] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004571] Last level dTLB entries: 4KB 512, 2MB 8, 4MB 4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.004571] tlb_flushall_shift: 4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.017741] Freeing SMP alternatives memory: 32K (c1a8e000 - c1a96000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.019039] ACPI: Core revision 20131115
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.024829] ACPI: All ACPI Tables successfully acquired
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.028015] ftrace: allocating 27783 entries in 55 pages
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.036137] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.036551] ..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.078336] smpboot: CPU0: AMD Turion(tm) 64 Mobile Technology MK-36 (fam: 0f, model: 4c, stepping: 02)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] Performance Events: AMD PMU driver.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... version:                0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... bit width:              48
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... generic registers:      4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... value mask:             0000ffffffffffff
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... max period:             00007fffffffffff
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... fixed-purpose events:   0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] ... event mask:             000000000000000f
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] x86: Booted up 1 node, 1 CPUs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] smpboot: Total of 1 processors activated (3990.05 BogoMIPS)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] devtmpfs: initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] EVM: security.selinux
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] EVM: security.SMACK64
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] EVM: security.ima
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] EVM: security.capability
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080000] PM: Registering ACPI NVS region [mem 0x3fe9a000-0x3fefffff] (417792 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080590] pinctrl core: initialized pinctrl subsystem
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080685] regulator-dummy: no parameters
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080728] RTC time: 14:52:31, date: 10/14/15
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080782] NET: Registered protocol family 16
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080992] EISA bus registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080995] cpuidle: using governor ladder
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.080997] cpuidle: using governor menu
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081003] node 0 link 0: io port [1000, fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081007] TOM: 0000000040000000 aka 1024M
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081011] node 0 link 0: mmio [a0000, bffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081014] node 0 link 0: mmio [f0000000, ffffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081017] node 0 link 0: mmio [e0000000, efffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081020] node 0 link 0: mmio [40000000, dfffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081024] bus: [bus 00-ff] on node 0 link 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081026] bus: 00 [io  0x0000-0xffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081028] bus: 00 [mem 0x000a0000-0x000bffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081031] bus: 00 [mem 0x40000000-0xfcffffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081128] ACPI: bus type PCI registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081131] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081214] PCI: MMCONFIG for domain 0000 [bus 00-07] at [mem 0xe0000000-0xe07fffff] (base 0xe0000000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081218] PCI: MMCONFIG at [mem 0xe0000000-0xe07fffff] reserved in E820
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081220] PCI: Using MMCONFIG for extended config space
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.081221] PCI: Using configuration type 1 for base access
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.082801] bio: create slab <bio-0> at 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.082991] ACPI: Added _OSI(Module Device)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.082994] ACPI: Added _OSI(Processor Device)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.082996] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.082998] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.085083] ACPI: Actual Package length (1) is larger than NumElements field (0), truncated
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.108911] ACPI: Interpreter enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.108923] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20131115/hwxface-580)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.108928] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20131115/hwxface-580)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.108943] ACPI: (supports S0 S3 S4 S5)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.108946] ACPI: Using IOAPIC for interrupt routing
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.109036] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.109205] ACPI: No dock devices found.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.193988] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.193998] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.194004] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195142] acpi PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195146] acpi PNP0A03:00: host bridge window [mem 0x000d4000-0x000d5fff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195149] acpi PNP0A03:00: host bridge window [mem 0x000d6000-0x000d7fff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195152] acpi PNP0A03:00: host bridge window [mem 0x000d8000-0x000d9fff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195155] acpi PNP0A03:00: host bridge window [mem 0x000da000-0x000dbfff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195158] acpi PNP0A03:00: host bridge window [mem 0x000dc000-0x000ddfff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195161] acpi PNP0A03:00: host bridge window [mem 0x000de000-0x000dffff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195164] acpi PNP0A03:00: host bridge window [mem 0x000e0000-0x000e1fff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195167] acpi PNP0A03:00: host bridge window [mem 0x000e2000-0x000e3fff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195170] acpi PNP0A03:00: host bridge window [mem 0x40000000-0xffffffff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195173] acpi PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195176] acpi PNP0A03:00: host bridge window [io  0x0d00-0xdfff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195179] acpi PNP0A03:00: host bridge window [io  0xe030-0xffff] (ignored)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195182] PCI: root bus 00: hardware-probed resources
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195188] acpi PNP0A03:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-07] only partially covers this bridge
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195410] PCI host bridge to bus 0000:00
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195414] pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195417] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195420] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195423] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfcffffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195433] pci 0000:00:00.0: [1002:5950] type 00 class 0x060000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195536] pci 0000:00:02.0: [1002:5a34] type 01 class 0x060400
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195572] pci 0000:00:02.0: PME# supported from D0 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195659] pci 0000:00:04.0: [1002:5a36] type 01 class 0x060400
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195692] pci 0000:00:04.0: PME# supported from D0 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195749] pci 0000:00:04.0: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195791] pci 0000:00:05.0: [1002:5a37] type 01 class 0x060400
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195824] pci 0000:00:05.0: PME# supported from D0 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195878] pci 0000:00:05.0: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195948] pci 0000:00:13.0: [1002:4374] type 00 class 0x0c0310
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.195972] pci 0000:00:13.0: reg 0x10: [mem 0xc0004000-0xc0004fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196132] pci 0000:00:13.0: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196177] pci 0000:00:13.1: [1002:4375] type 00 class 0x0c0310
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196201] pci 0000:00:13.1: reg 0x10: [mem 0xc0005000-0xc0005fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196352] pci 0000:00:13.1: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196404] pci 0000:00:13.2: [1002:4373] type 00 class 0x0c0320
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196431] pci 0000:00:13.2: reg 0x10: [mem 0xc0006000-0xc0006fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196548] pci 0000:00:13.2: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196550] pci 0000:00:13.2: PME# supported from D0 D1 D2 D3hot
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196608] pci 0000:00:13.2: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196664] pci 0000:00:14.0: [1002:4372] type 00 class 0x0c0500
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196686] pci 0000:00:14.0: reg 0x10: [io  0x8400-0x840f]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196700] pci 0000:00:14.0: reg 0x14: [mem 0xfed00000-0xfed003ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196757] HPET not enabled in BIOS. You might try hpet=force boot option
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196875] pci 0000:00:14.1: [1002:4376] type 00 class 0x010182
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196899] pci 0000:00:14.1: reg 0x10: [io  0x8430-0x8437]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196912] pci 0000:00:14.1: reg 0x14: [io  0x8424-0x8427]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196926] pci 0000:00:14.1: reg 0x18: [io  0x8428-0x842f]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196939] pci 0000:00:14.1: reg 0x1c: [io  0x8420-0x8423]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.196952] pci 0000:00:14.1: reg 0x20: [io  0x8410-0x841f]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197105] pci 0000:00:14.2: [1002:437b] type 00 class 0x040300
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197138] pci 0000:00:14.2: reg 0x10: [mem 0xc0000000-0xc0003fff 64bit]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197244] pci 0000:00:14.2: PME# supported from D0 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197302] pci 0000:00:14.2: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197343] pci 0000:00:14.3: [1002:4377] type 00 class 0x060100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197513] pci 0000:00:14.4: [1002:4371] type 01 class 0x060401
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197642] pci 0000:00:18.0: [1022:1100] type 00 class 0x060000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197730] pci 0000:00:18.1: [1022:1101] type 00 class 0x060000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197809] pci 0000:00:18.2: [1022:1102] type 00 class 0x060000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.197893] pci 0000:00:18.3: [1022:1103] type 00 class 0x060000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198048] pci 0000:01:00.0: [1002:7149] type 00 class 0x030000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198060] pci 0000:01:00.0: reg 0x10: [mem 0xc8000000-0xcfffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198068] pci 0000:01:00.0: reg 0x14: [io  0x9000-0x90ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198076] pci 0000:01:00.0: reg 0x18: [mem 0xc0100000-0xc010ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198100] pci 0000:01:00.0: reg 0x30: [mem 0x00000000-0x0001ffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198130] pci 0000:01:00.0: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198171] pci 0000:01:00.0: disabling ASPM on pre-1.1 PCIe device.  You can enable it with 'pcie_aspm=force'
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198179] pci 0000:00:02.0: PCI bridge to [bus 01]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198184] pci 0000:00:02.0:   bridge window [io  0x9000-0x9fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198188] pci 0000:00:02.0:   bridge window [mem 0xc0100000-0xc01fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198193] pci 0000:00:02.0:   bridge window [mem 0xc8000000-0xcfffffff 64bit pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198270] acpiphp: Slot [1] registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198277] pci 0000:00:04.0: PCI bridge to [bus 02-03]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198281] pci 0000:00:04.0:   bridge window [io  0x0000-0x0fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198285] pci 0000:00:04.0:   bridge window [mem 0x00000000-0x000fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198290] pci 0000:00:04.0:   bridge window [mem 0x00000000-0x000fffff 64bit pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198353] acpiphp: Slot [1-1] registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198359] pci 0000:00:05.0: PCI bridge to [bus 04-05]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198363] pci 0000:00:05.0:   bridge window [io  0x0000-0x0fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198367] pci 0000:00:05.0:   bridge window [mem 0x00000000-0x000fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198463] pci 0000:06:01.0: [10ec:8139] type 00 class 0x020000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198492] pci 0000:06:01.0: reg 0x10: [io  0xa000-0xa0ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198508] pci 0000:06:01.0: reg 0x14: [mem 0xc0210000-0xc02100ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198622] pci 0000:06:01.0: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198624] pci 0000:06:01.0: PME# supported from D1 D2 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198653] pci 0000:06:01.0: System wakeup disabled by ACPI
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198706] pci 0000:06:02.0: [168c:001a] type 00 class 0x020000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198736] pci 0000:06:02.0: reg 0x10: [mem 0xc0200000-0xc020ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198927] pci 0000:06:04.0: [1524:1412] type 02 class 0x060700
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.198957] pci 0000:06:04.0: reg 0x10: [mem 0xc0211000-0xc0211fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199005] pci 0000:06:04.0: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199008] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199090] pci 0000:06:04.1: [1524:0530] type 00 class 0x050100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199119] pci 0000:06:04.1: reg 0x10: [mem 0xc0210400-0xc021047f]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199251] pci 0000:06:04.1: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199253] pci 0000:06:04.1: PME# supported from D0 D1 D2 D3hot
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199321] pci 0000:06:04.2: [1524:0550] type 00 class 0x080501
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199351] pci 0000:06:04.2: reg 0x10: [mem 0xc0210800-0xc02108ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199482] pci 0000:06:04.2: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199485] pci 0000:06:04.2: PME# supported from D0 D1 D2 D3hot
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199556] pci 0000:06:04.3: [1524:0520] type 00 class 0x050100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199586] pci 0000:06:04.3: reg 0x10: [mem 0xc0210c00-0xc0210c7f]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199717] pci 0000:06:04.3: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199720] pci 0000:06:04.3: PME# supported from D0 D1 D2 D3hot
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199796] pci 0000:06:04.4: [1524:0551] type 00 class 0x050100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199822] pci 0000:06:04.4: reg 0x10: [mem 0x00000000-0x000000ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199929] pci 0000:06:04.4: supports D1 D2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.199932] pci 0000:06:04.4: PME# supported from D0 D1 D2 D3hot
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200048] pci 0000:00:14.4: PCI bridge to [bus 06-08] (subtractive decode)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200058] pci 0000:00:14.4:   bridge window [io  0xa000-0xafff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200064] pci 0000:00:14.4:   bridge window [mem 0xc0200000-0xc02fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200070] pci 0000:00:14.4:   bridge window [io  0x0000-0xffff] (subtractive decode)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200073] pci 0000:00:14.4:   bridge window [mem 0x000a0000-0x000bffff] (subtractive decode)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200076] pci 0000:00:14.4:   bridge window [mem 0x40000000-0xfcffffffff] (subtractive decode)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200147] pci_bus 0000:07: busn_res: can not insert [bus 07-ff] under [bus 06-08] (conflicts with (null) [bus 06-08])
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200154] pci_bus 0000:07: busn_res: [bus 07-ff] end is updated to 07
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200177] pci_bus 0000:00: on NUMA node 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200626] ACPI: PCI Interrupt Link [LNKA] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200691] ACPI: PCI Interrupt Link [LNKB] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200754] ACPI: PCI Interrupt Link [LNKC] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200817] ACPI: PCI Interrupt Link [LNKD] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200880] ACPI: PCI Interrupt Link [LNKE] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.200942] ACPI: PCI Interrupt Link [LNKF] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.201005] ACPI: PCI Interrupt Link [LNKG] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.201067] ACPI: PCI Interrupt Link [LNKH] (IRQs 10 11) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.201130] ACPI: PCI Interrupt Link [LNKU] (IRQs 3 4 5 7) *0, disabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228181] ACPI: Enabled 3 GPEs in block 00 to 1F
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228195] ACPI: \_SB_.PCI0: notify handler is installed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228246] Found 1 acpi root devices
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228289] ACPI : EC: GPE = 0x10, I/O: command/status = 0x66, data = 0x62
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228443] vgaarb: device added: PCI:0000:01:00.0,decodes=io+mem,owns=io+mem,locks=none
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228446] vgaarb: loaded
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228448] vgaarb: bridge control possible 0000:01:00.0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228752] SCSI subsystem initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228826] libata version 3.00 loaded.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228872] ACPI: bus type USB registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228901] usbcore: registered new interface driver usbfs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228913] usbcore: registered new interface driver hub
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.228946] usbcore: registered new device driver usb
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229090] PCI: Using ACPI for IRQ routing
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229128] PCI: pci_cache_line_size set to 64 bytes
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229211] e820: reserve RAM buffer [mem 0x0009d800-0x0009ffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229214] e820: reserve RAM buffer [mem 0x3fe90000-0x3fffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229336] NetLabel: Initializing
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229338] NetLabel:  domain hash size = 128
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229340] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229356] NetLabel:  unlabeled traffic allowed by default
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.229525] Switched to clocksource refined-jiffies
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237407] AppArmor: AppArmor Filesystem Enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237451] pnp: PnP ACPI init
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237473] ACPI: bus type PNP registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237662] system 00:00: [mem 0xe0000000-0xefffffff] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237666] system 00:00: [mem 0xfec00000-0xfec00fff] could not be reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237670] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.237675] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238091] pnp 00:01: [dma 4]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238120] pnp 00:01: Plug and Play ACPI device, IDs PNP0200 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238169] pnp 00:02: Plug and Play ACPI device, IDs PNP0c04 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238206] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238237] pnp 00:04: Plug and Play ACPI device, IDs PNP0800 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238287] pnp 00:05: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238355] pnp 00:06: Plug and Play ACPI device, IDs SYN0701 SYN0700 SYN0002 PNP0f13 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238427] system 00:07: [io  0x1080] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238431] system 00:07: [io  0x040b] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238434] system 00:07: [io  0x04d0-0x04d1] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238438] system 00:07: [io  0x04d6] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238441] system 00:07: [io  0x0c00-0x0c01] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238444] system 00:07: [io  0x0c14] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238447] system 00:07: [io  0x0c50-0x0c52] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238450] system 00:07: [io  0x0c6c] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238454] system 00:07: [io  0x0c6f] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238457] system 00:07: [io  0x0cd4-0x0cd5] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238461] system 00:07: [io  0x0cd6-0x0cd7] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238464] system 00:07: [io  0x0cd8-0x0cdf] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238467] system 00:07: [io  0x8000-0x805f] could not be reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238471] system 00:07: [io  0x8100-0x81ff window] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238474] system 00:07: [io  0x0f40-0x0f47] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238478] system 00:07: [io  0x0280-0x0293] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238481] system 00:07: [io  0x087f] has been reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238485] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238554] pnp 00:08: disabling [mem 0x00000000-0x00000fff] because it overlaps 0000:01:00.0 BAR 6 [mem 0x00000000-0x0001ffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238584] system 00:08: [mem 0x000e0000-0x000fffff] could not be reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238588] system 00:08: [mem 0xfff00000-0xffffffff] could not be reserved
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.238592] system 00:08: Plug and Play ACPI device, IDs PNP0c01 (active)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.264080] pnp: PnP ACPI: found 9 devices
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.264082] ACPI: bus type PNP unregistered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.264085] PnPBIOS: Disabled by ACPI PNP
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300408] Switched to clocksource acpi_pm
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300446] pci 0000:06:04.0: res[15]=[mem 0x04000000-0x03ffffff pref] get_res_add_size add_size 4000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300452] pci 0000:00:14.4: bridge window [mem 0x04000000-0x03ffffff pref] to [bus 06-08] add_size 4000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300459] pci 0000:00:14.4: res[15]=[mem 0x04000000-0x03ffffff pref] get_res_add_size add_size 4000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300466] pci 0000:00:14.4: BAR 15: assigned [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300471] pci 0000:01:00.0: BAR 6: assigned [mem 0xc0120000-0xc013ffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300475] pci 0000:00:02.0: PCI bridge to [bus 01]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300479] pci 0000:00:02.0:   bridge window [io  0x9000-0x9fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300483] pci 0000:00:02.0:   bridge window [mem 0xc0100000-0xc01fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300487] pci 0000:00:02.0:   bridge window [mem 0xc8000000-0xcfffffff 64bit pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300491] pci 0000:00:04.0: PCI bridge to [bus 02-03]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300497] pci 0000:00:05.0: PCI bridge to [bus 04-05]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300506] pci 0000:06:04.0: res[15]=[mem 0x04000000-0x03ffffff pref] get_res_add_size add_size 4000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300510] pci 0000:06:04.0: res[16]=[mem 0x04000000-0x03ffffff] get_res_add_size add_size 4000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300513] pci 0000:06:04.0: res[13]=[io  0x0100-0x00ff] get_res_add_size add_size 100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300516] pci 0000:06:04.0: res[14]=[io  0x0100-0x00ff] get_res_add_size add_size 100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300520] pci 0000:06:04.0: BAR 15: assigned [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300524] pci 0000:06:04.0: BAR 16: assigned [mem 0x44000000-0x47ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300527] pci 0000:06:04.0: BAR 13: assigned [io  0xa400-0xa4ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300531] pci 0000:06:04.0: BAR 14: assigned [io  0xa800-0xa8ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300534] pci 0000:06:04.4: BAR 0: assigned [mem 0xc0210100-0xc02101ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300542] pci 0000:06:04.0: CardBus bridge to [bus 07]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300545] pci 0000:06:04.0:   bridge window [io  0xa400-0xa4ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300552] pci 0000:06:04.0:   bridge window [io  0xa800-0xa8ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300559] pci 0000:06:04.0:   bridge window [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300566] pci 0000:06:04.0:   bridge window [mem 0x44000000-0x47ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300572] pci 0000:00:14.4: PCI bridge to [bus 06-08]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300577] pci 0000:00:14.4:   bridge window [io  0xa000-0xafff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300584] pci 0000:00:14.4:   bridge window [mem 0xc0200000-0xc02fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300590] pci 0000:00:14.4:   bridge window [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300599] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300602] pci_bus 0000:00: resource 5 [mem 0x000a0000-0x000bffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300605] pci_bus 0000:00: resource 6 [mem 0x40000000-0xfcffffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300608] pci_bus 0000:01: resource 0 [io  0x9000-0x9fff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300611] pci_bus 0000:01: resource 1 [mem 0xc0100000-0xc01fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300614] pci_bus 0000:01: resource 2 [mem 0xc8000000-0xcfffffff 64bit pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300618] pci_bus 0000:06: resource 0 [io  0xa000-0xafff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300621] pci_bus 0000:06: resource 1 [mem 0xc0200000-0xc02fffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300624] pci_bus 0000:06: resource 2 [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300627] pci_bus 0000:06: resource 4 [io  0x0000-0xffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300630] pci_bus 0000:06: resource 5 [mem 0x000a0000-0x000bffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300633] pci_bus 0000:06: resource 6 [mem 0x40000000-0xfcffffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300636] pci_bus 0000:07: resource 0 [io  0xa400-0xa4ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300638] pci_bus 0000:07: resource 1 [io  0xa800-0xa8ff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300641] pci_bus 0000:07: resource 2 [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300644] pci_bus 0000:07: resource 3 [mem 0x44000000-0x47ffffff]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300689] NET: Registered protocol family 2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300902] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300936] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.300998] TCP: Hash tables configured (established 8192 bind 8192)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.301064] TCP: reno registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.301067] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.301084] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.301159] NET: Registered protocol family 1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.301172] pci 0000:00:00.0: MSI quirk detected; MSI disabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.412226] pci 0000:01:00.0: Boot video device
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.412254] PCI: CLS 32 bytes, default 64
+Oct 14 14:53:20 ubuntu-kylin kernel: [    0.412324] Trying to unpack rootfs image as initramfs...
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454288] Freeing initrd memory: 22588K (f65ef000 - f7bfe000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454490] microcode: AMD CPU family 0xf not supported
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454493] Scanning for low memory corruption every 60 seconds
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454795] Initialise system trusted keyring
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454853] audit: initializing netlink socket (disabled)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.454869] type=2000 audit(1444834356.451:1): initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.483369] bounce pool size: 64 pages
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.483390] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.484932] zbud: loaded
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.485013] VFS: Disk quotas dquot_6.5.2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.485072] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.485671] fuse init (API version 7.22)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.485761] msgmni has been set to 1738
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.485833] Key type big_key registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486152] Key type asymmetric registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486154] Asymmetric key parser 'x509' registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486195] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486226] io scheduler noop registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486229] io scheduler deadline registered (default)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486264] io scheduler cfq registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486540] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486563] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.486634] ipmi message handler version 39.2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493304] ACPI: AC Adapter [ACAD] (on-line)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493375] input: Lid Switch as /devices/LNXSYSTM:00/device:00/PNP0C0D:00/input/input0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493404] ACPI: Lid Switch [LID]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493444] input: Power Button as /devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493449] ACPI: Power Button [PWRB]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493490] input: Sleep Button as /devices/LNXSYSTM:00/device:00/PNP0C0E:00/input/input2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493494] ACPI: Sleep Button [SLPB]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493546] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493549] ACPI: Power Button [PWRF]
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493590] tsc: Marking TSC unstable due to TSC halts in idle
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.493600] ACPI: acpi_idle registered with cpuidle
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.517677] ACPI: Invalid active0 threshold
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.536073] thermal LNXTHERM:00: registered as thermal_zone0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.536075] ACPI: Thermal Zone [THRM] (63 C)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.536134] GHES: HEST is not enabled!
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.536256] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.537785] Linux agpgart interface v0.103
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.539633] brd: module loaded
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.540672] loop: module loaded
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541334] libphy: Fixed MDIO Bus: probed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541480] tun: Universal TUN/TAP device driver, 1.6
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541482] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541531] PPP generic driver version 2.4.2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541577] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541582] ehci-pci: EHCI PCI platform driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541727] ehci-pci 0000:00:13.2: EHCI Host Controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541735] ehci-pci 0000:00:13.2: new USB bus registered, assigned bus number 1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541817] ehci-pci 0000:00:13.2: irq 19, io mem 0xc0006000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.541849] isapnp: Scanning for PnP cards...
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634714] ehci-pci 0000:00:13.2: USB 2.0 started, EHCI 1.00
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634803] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634806] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634809] usb usb1: Product: EHCI Host Controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634811] usb usb1: Manufacturer: Linux 3.13.0-32-generic ehci_hcd
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634814] usb usb1: SerialNumber: 0000:00:13.2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634935] hub 1-0:1.0: USB hub found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.634944] hub 1-0:1.0: 8 ports detected
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635157] ehci-platform: EHCI generic platform driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635171] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635173] ohci-pci: OHCI PCI platform driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635258] ohci-pci 0000:00:13.0: OHCI PCI host controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635264] ohci-pci 0000:00:13.0: new USB bus registered, assigned bus number 2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.635292] ohci-pci 0000:00:13.0: irq 19, io mem 0xc0004000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722780] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722783] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722786] usb usb2: Product: OHCI PCI host controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722789] usb usb2: Manufacturer: Linux 3.13.0-32-generic ohci_hcd
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722791] usb usb2: SerialNumber: 0000:00:13.0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722894] hub 2-0:1.0: USB hub found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.722906] hub 2-0:1.0: 4 ports detected
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.723095] ohci-pci 0000:00:13.1: OHCI PCI host controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.723101] ohci-pci 0000:00:13.1: new USB bus registered, assigned bus number 3
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.723120] ohci-pci 0000:00:13.1: irq 19, io mem 0xc0005000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.853924] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.853927] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.853930] usb usb3: Product: OHCI PCI host controller
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.853932] usb usb3: Manufacturer: Linux 3.13.0-32-generic ohci_hcd
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.853935] usb usb3: SerialNumber: 0000:00:13.1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.854036] hub 3-0:1.0: USB hub found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.854047] hub 3-0:1.0: 4 ports detected
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.854173] ohci-platform: OHCI generic platform driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.854185] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.854283] i8042: PNP: PS/2 Controller [PNP0303:KBC0,PNP0f13:MSS0] at 0x60,0x64 irq 1,12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.860933] i8042: Detected active multiplexing controller, rev 1.1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861042] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861048] serio: i8042 AUX0 port at 0x60,0x64 irq 12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861077] serio: i8042 AUX1 port at 0x60,0x64 irq 12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861105] serio: i8042 AUX2 port at 0x60,0x64 irq 12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861128] serio: i8042 AUX3 port at 0x60,0x64 irq 12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861246] mousedev: PS/2 mouse device common for all mice
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861451] rtc_cmos 00:03: RTC can wake from S4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861601] rtc_cmos 00:03: rtc core: registered rtc_cmos as rtc0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861631] rtc_cmos 00:03: alarms up to one month, 114 bytes nvram
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861797] device-mapper: uevent: version 1.0.3
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861859] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861884] platform eisa.0: Probing EISA bus 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861888] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861892] platform eisa.0: Cannot allocate resource for EISA slot 1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861895] platform eisa.0: Cannot allocate resource for EISA slot 2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861898] platform eisa.0: Cannot allocate resource for EISA slot 3
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861901] platform eisa.0: Cannot allocate resource for EISA slot 4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861913] platform eisa.0: Cannot allocate resource for EISA slot 5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861917] platform eisa.0: Cannot allocate resource for EISA slot 6
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861920] platform eisa.0: Cannot allocate resource for EISA slot 7
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861923] platform eisa.0: Cannot allocate resource for EISA slot 8
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861926] platform eisa.0: EISA: Detected 0 cards
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861935] cpufreq-nforce2: No nForce2 chipset.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.861938] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862122] TCP: cubic registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862239] NET: Registered protocol family 10
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862489] NET: Registered protocol family 17
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862502] Key type dns_resolver registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862684] Using IPI No-Shortcut mode
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.862788] Loading compiled-in X.509 certificates
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.867111] Loaded X.509 cert 'Magrathea: Glacier signing key: a7fc6590fc4a8d859aaebda2ca5dd04716244fa0'
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.867126] registered taskstats version 1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.868142] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.912896] isapnp: No Plug & Play device found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.914378] Key type trusted registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.917119] Key type encrypted registered
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.919839] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.919845] IMA: No TPM chip found, activating TPM-bypass!
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920213] regulator-dummy: disabling
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920267]   Magic number: 3:899:889
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920407] rtc_cmos 00:03: setting system clock to 2015-10-14 14:52:38 UTC (1444834358)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920473] ACPI Warning: \_PR_.CPU0._PSD: Return Package has no elements (empty) (20131115/nsprepkg-126)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920481] ACPI: Invalid _PSD data
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920543] powernow-k8: fid 0xc (2000 MHz), vid 0x10
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920545] powernow-k8: fid 0xa (1800 MHz), vid 0x12
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920547] powernow-k8: fid 0x8 (1600 MHz), vid 0x14
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920549] powernow-k8: fid 0x0 (800 MHz), vid 0x18
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920586] powernow-k8: Found 1 AMD Turion(tm) 64 Mobile Technology MK-36 (1 cpu cores) (version 2.20.00)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920592] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920594] EDD information not available.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    6.920635] PM: Hibernation image not present or could not be loaded.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.064047] usb 1-4: new high-speed USB device number 2 using ehci-pci
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.101907] ACPI: Deprecated procfs I/F for battery is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.101916] ACPI: Battery Slot [BAT1] (battery present)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.102621] Freeing unused kernel memory: 872K (c19b4000 - c1a8e000)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.102667] Write protecting the kernel text: 6532k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.102740] Write protecting the kernel read-only data: 2764k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.102742] NX-protecting the kernel data: 5756k
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.192490] wmi: Mapper loaded
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.195009] [drm] Initialized drm 1.1.0 20060810
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.199191] usb 1-4: New USB device found, idVendor=0951, idProduct=1666
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.199198] usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.199201] usb 1-4: Product: DataTraveler 3.0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.199204] usb 1-4: Manufacturer: Kingston
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.199206] usb 1-4: SerialNumber: 60A44C3FAC18BDC029674999
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.225548] ACPI: Video Device [VGA1] (multi-head: yes  rom: no  post: no)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.225699] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:24/LNXVIDEO:01/input/input9
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.288707] sdhci: Secure Digital Host Controller Interface driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.288712] sdhci: Copyright(c) Pierre Ossman
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.308163] scsi0 : pata_atiixp
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.308859] sdhci-pci 0000:06:04.2: SDHCI controller found [1524:0550] (rev 1)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.309018] sdhci-pci 0000:06:04.2: dummy supplies not allowed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.309020] mmc0: no vqmmc regulator found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.309023] sdhci-pci 0000:06:04.2: dummy supplies not allowed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.309025] mmc0: no vmmc regulator found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.313589] scsi1 : pata_atiixp
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.313650] ata1: PATA max UDMA/100 cmd 0x1f0 ctl 0x3f6 bmdma 0x8410 irq 14
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.313653] ata2: PATA max UDMA/100 cmd 0x170 ctl 0x376 bmdma 0x8418 irq 15
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.321851] mmc0: SDHCI controller on PCI [0000:06:04.2] using PIO
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.321875] sdhci-pci 0000:06:04.4: SDHCI controller found [1524:0551] (rev 1)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.321888] sdhci-pci 0000:06:04.4: enabling device (0000 -> 0002)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.321998] sdhci-pci 0000:06:04.4: dummy supplies not allowed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.322000] mmc1: no vqmmc regulator found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.322002] sdhci-pci 0000:06:04.4: dummy supplies not allowed
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.322004] mmc1: no vmmc regulator found
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.322083] mmc1: SDHCI controller on PCI [0000:06:04.4] using PIO
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.340645] 8139cp: 8139cp: 10/100 PCI Ethernet driver v1.3 (Mar 22, 2004)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.340678] 8139cp 0000:06:01.0: This (id 10ec:8139 rev 10) is not an 8139C+ compatible chip, use 8139too
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.357180] 8139too: 8139too Fast Ethernet driver 0.9.28
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.437847] 8139too 0000:06:01.0 eth0: RealTek RTL8139 at 0x0001a000, 00:16:d4:5b:68:b9, IRQ 21
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.534864] [drm] radeon kernel modesetting enabled.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537209] [drm] initializing kernel modesetting (RV515 0x1002:0x7149 0x1025:0x009F).
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537235] [drm] register mmio base: 0xC0100000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537237] [drm] register mmio size: 65536
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537394] ATOM BIOS: BR20530
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537430] [drm] Generation 2 PCI interface, using max accessible memory
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537437] radeon 0000:01:00.0: VRAM: 128M 0x0000000000000000 - 0x0000000007FFFFFF (128M used)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537441] radeon 0000:01:00.0: GTT: 512M 0x0000000008000000 - 0x0000000027FFFFFF
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537465] [drm] Detected VRAM RAM=128M, BAR=128M
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.537467] [drm] RAM width 64bits DDR
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541045] [TTM] Zone  kernel: Available graphics memory: 445434 kiB
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541049] [TTM] Zone highmem: Available graphics memory: 512286 kiB
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541051] [TTM] Initializing pool allocator
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541056] [TTM] Initializing DMA pool allocator
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541088] [drm] radeon: 128M of VRAM memory ready
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541090] [drm] radeon: 512M of GTT memory ready.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.541108] [drm] GART: num cpu pages 131072, num gpu pages 131072
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.550468] [drm] radeon: 1 quad pipes, 1 z pipes initialized.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.561004] usb-storage 1-4:1.0: USB Mass Storage device detected
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563693] [drm] PCIE GART of 512M enabled (table at 0x0000000000040000).
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563736] radeon 0000:01:00.0: WB enabled
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563742] radeon 0000:01:00.0: fence driver on ring 0 use gpu addr 0x0000000008000000 and cpu addr 0xf74dc000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563745] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563747] [drm] Driver supports precise vblank timestamp query.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563779] [drm] radeon: irq initialized.
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.563795] [drm] Loading R500 Microcode
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.567843] [drm] radeon: ring at 0x0000000008001000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.567885] [drm] ring test succeeded in 10 usecs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.568045] scsi2 : usb-storage 1-4:1.0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.568159] usbcore: registered new interface driver usb-storage
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.568798] [drm] ib test succeeded in 0 usecs
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569207] [drm] Radeon Display Connectors
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569209] [drm] Connector 0:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569211] [drm]   VGA-1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569214] [drm]   DDC: 0x7e40 0x7e40 0x7e44 0x7e44 0x7e48 0x7e48 0x7e4c 0x7e4c
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569215] [drm]   Encoders:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569217] [drm]     CRT1: INTERNAL_KLDSCP_DAC1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569219] [drm] Connector 1:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569220] [drm]   LVDS-1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569223] [drm]   DDC: 0x7e30 0x7e30 0x7e34 0x7e34 0x7e38 0x7e38 0x7e3c 0x7e3c
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569224] [drm]   Encoders:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569226] [drm]     LCD1: INTERNAL_LVTM1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569227] [drm] Connector 2:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569229] [drm]   SVIDEO-1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569230] [drm]   Encoders:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569232] [drm]     TV1: INTERNAL_KLDSCP_DAC2
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569233] [drm] Connector 3:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569235] [drm]   DVI-I-1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569237] [drm]   HPD1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569239] [drm]   DDC: 0x7e50 0x7e50 0x7e54 0x7e54 0x7e58 0x7e58 0x7e5c 0x7e5c
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569240] [drm]   Encoders:
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569242] [drm]     DFP1: INTERNAL_KLDSCP_TMDS1
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569251] [drm] Possible lm63 thermal controller at 0x4c
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.569293] [drm] radeon: power management initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659841] [drm] fb mappable at 0xC80C0000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659845] [drm] vram apper at 0xC8000000
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659846] [drm] size 7258112
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659848] [drm] fb depth is 24
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659849] [drm]    pitch is 6912
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.659996] fbcon: radeondrmfb (fb0) is primary device
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.715826] Console: switching to colour frame buffer device 160x50
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724550] radeon 0000:01:00.0: fb0: radeondrmfb frame buffer device
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724553] radeon 0000:01:00.0: registered panic notifier
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724659] [drm] Initialized radeon 2.36.0 20080528 for 0000:01:00.0 on minor 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724751] ata1.00: ATA-6: TOSHIBA MK1234GAX, AC001A, max UDMA/100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724754] ata1.00: 234441648 sectors, multi 16: LBA48 
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.724761] ata1.01: ATAPI: Slimtype DVDRW SSM-8515S, GRS6, max UDMA/33
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.732752] ata1.00: configured for UDMA/100
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.772529] ata1.01: configured for UDMA/33
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776043] scsi 0:0:0:0: Direct-Access     ATA      TOSHIBA MK1234GA AC00 PQ: 0 ANSI: 5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776313] sd 0:0:0:0: [sda] 234441648 512-byte logical blocks: (120 GB/111 GiB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776384] sd 0:0:0:0: [sda] Write Protect is off
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776388] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776419] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 14 14:53:20 ubuntu-kylin kernel: [    7.776790] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.109454] psmouse serio4: synaptics: Touchpad model: 1, fw: 6.2, id: 0x1280b1, caps: 0xa04713/0x204000/0x0, board id: 3655, fw id: 235996
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.140421] input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio4/input/input13
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.229586] scsi 0:0:1:0: CD-ROM            Slimtype DVDRW SSM-8515S  GRS6 PQ: 0 ANSI: 5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.243105]  sda: sda1 sda2 < sda5 sda6 >
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.248597] sr0: scsi3-mmc drive: 24x/24x writer dvd-ram cd/rw xa/form2 cdda tray
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.248601] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.248779] sr 0:0:1:0: Attached scsi CD-ROM sr0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.248954] sr 0:0:1:0: Attached scsi generic sg1 type 5
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.249933] sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.568660] scsi 2:0:0:0: Direct-Access     Kingston DataTraveler 3.0 PMAP PQ: 0 ANSI: 6
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.568963] sd 2:0:0:0: Attached scsi generic sg2 type 0
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.569516] sd 2:0:0:0: [sdb] 61440000 512-byte logical blocks: (31.4 GB/29.2 GiB)
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.571155] sd 2:0:0:0: [sdb] Write Protect is off
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.571162] sd 2:0:0:0: [sdb] Mode Sense: 2b 80 00 08
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.572765] sd 2:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.851648]  sdb: sdb4
+Oct 14 14:53:20 ubuntu-kylin kernel: [    8.856681] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+Oct 14 14:53:20 ubuntu-kylin kernel: [    9.103864] random: nonblocking pool is initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   18.774239] FAT-fs (sdb4): Invalid FSINFO signature: 0x00000000, 0x00000000 (sector = 1)
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.008059] usb 2-2: new full-speed USB device number 2 using ohci-pci
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.095382] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.220095] usb 2-2: New USB device found, idVendor=24ae, idProduct=2000
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.220103] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.220106] usb 2-2: Product: RAPOO 2.4G Wireless Device
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.220109] usb 2-2: Manufacturer: RAPOO
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.256444] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.307356] usbcore: registered new interface driver usbhid
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.307362] usbhid: USB HID core driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.329548] input: RAPOO RAPOO 2.4G Wireless Device as /devices/pci0000:00/0000:00:13.0/usb2/2-2/2-2:1.0/input/input14
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.333272] hid-generic 0003:24AE:2000.0001: input,hidraw0: USB HID v1.01 Keyboard [RAPOO RAPOO 2.4G Wireless Device] on usb-0000:00:13.0-2/input0
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.337582] input: RAPOO RAPOO 2.4G Wireless Device as /devices/pci0000:00/0000:00:13.0/usb2/2-2/2-2:1.1/input/input15
+Oct 14 14:53:20 ubuntu-kylin kernel: [   19.346666] hid-generic 0003:24AE:2000.0002: input,hiddev0,hidraw1: USB HID v1.01 Mouse [RAPOO RAPOO 2.4G Wireless Device] on usb-0000:00:13.0-2/input1
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.588053] usb 2-4: new low-speed USB device number 3 using ohci-pci
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.798098] usb 2-4: New USB device found, idVendor=046d, idProduct=c316
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.798105] usb 2-4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.798108] usb 2-4: Product: Logitech USB Keyboard
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.798111] usb 2-4: Manufacturer: Logitech
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.807120] input: Logitech Logitech USB Keyboard as /devices/pci0000:00/0000:00:13.0/usb2/2-4/2-4:1.0/input/input16
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.807430] hid-generic 0003:046D:C316.0003: input,hidraw2: USB HID v1.10 Keyboard [Logitech Logitech USB Keyboard] on usb-0000:00:13.0-4/input0
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.817187] input: Logitech Logitech USB Keyboard as /devices/pci0000:00/0000:00:13.0/usb2/2-4/2-4:1.1/input/input17
+Oct 14 14:53:20 ubuntu-kylin kernel: [   28.817423] hid-generic 0003:046D:C316.0004: input,hidraw3: USB HID v1.10 Device [Logitech Logitech USB Keyboard] on usb-0000:00:13.0-4/input1
+Oct 14 14:53:20 ubuntu-kylin kernel: [   47.544095] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.295607] lp: driver loaded but no devices found
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.338774] ppdev: user-space parallel port driver
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935582] Bluetooth: Core ver 2.17
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935656] NET: Registered protocol family 31
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935659] Bluetooth: HCI device and connection manager initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935670] Bluetooth: HCI socket layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935673] Bluetooth: L2CAP socket layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.935684] Bluetooth: SCO socket layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.998554] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.998562] Bluetooth: BNEP filters: protocol multicast
+Oct 14 14:53:20 ubuntu-kylin kernel: [   48.998576] Bluetooth: BNEP socket layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   49.138607] Bluetooth: RFCOMM TTY layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   49.138625] Bluetooth: RFCOMM socket layer initialized
+Oct 14 14:53:20 ubuntu-kylin kernel: [   49.138638] Bluetooth: RFCOMM ver 1.11
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Found user 'avahi' (UID 111) and group 'avahi' (GID 117).
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Successfully dropped root privileges.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: avahi-daemon 0.6.31 starting up.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Successfully called chroot().
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Successfully dropped remaining capabilities.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: No service file found in /etc/avahi/services.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Network interface enumeration completed.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Registering HINFO record with values 'I686'/'LINUX'.
+Oct 14 14:53:20 ubuntu-kylin avahi-daemon[1054]: Server startup complete. Host name is ubuntu-kylin.local. Local service cookie is 990363958.
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: checking bus 2, device 3: "/sys/devices/pci0000:00/0000:00:13.0/usb2/2-4"
+Oct 14 14:53:21 ubuntu-kylin kernel: [   49.618102] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0x8400, revision 0
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:13.2/usb1/1-4"
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: bus: 1, device: 2 was not an MTP device
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:13.0/usb2/2-2"
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: bus: 2, device: 3 was not an MTP device
+Oct 14 14:53:21 ubuntu-kylin mtp-probe: bus: 2, device: 2 was not an MTP device
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.183290] cfg80211: Calling CRDA to update world regulatory domain
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.215888] yenta_cardbus 0000:06:04.0: CardBus bridge found [1025:009f]
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.215924] yenta_cardbus 0000:06:04.0: Using CSCINT to route CSC interrupts to PCI
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.215927] yenta_cardbus 0000:06:04.0: Routing CardBus interrupts to PCI
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.215935] yenta_cardbus 0000:06:04.0: TI: mfunc 0x90501212, devctl 0x44
+Oct 14 14:53:21 ubuntu-kylin kernel: [   50.340099] device-mapper: multipath: version 1.6.0 loaded
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.444842] yenta_cardbus 0000:06:04.0: ISA IRQ mask 0x0cf8, PCI irq 20
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.444851] yenta_cardbus 0000:06:04.0: Socket status: 30000006
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.444861] yenta_cardbus 0000:06:04.0: pcmcia: parent PCI bridge window: [io  0xa000-0xafff]
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.444865] pcmcia_socket pcmcia_socket0: cs: IO port probe 0xa000-0xafff:
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.454123] k8temp 0000:00:18.3: Temperature readouts might be wrong - check erratum #141
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.446749]  excluding 0xa000-0xa0ff 0xa400-0xa4ff 0xa800-0xa8ff
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582793] yenta_cardbus 0000:06:04.0: pcmcia: parent PCI bridge window: [mem 0xc0200000-0xc02fffff]
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582800] pcmcia_socket pcmcia_socket0: cs: memory probe 0xc0200000-0xc02fffff:
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582805]  excluding 0xc0200000-0xc021ffff
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582817] yenta_cardbus 0000:06:04.0: pcmcia: parent PCI bridge window: [mem 0x40000000-0x43ffffff pref]
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582820] pcmcia_socket pcmcia_socket0: cs: memory probe 0x40000000-0x43ffffff:
+Oct 14 14:53:22 ubuntu-kylin kernel: [   50.582829]  excluding 0x40000000-0x43ffffff
+Oct 14 14:53:22 ubuntu-kylin kernel: [   51.061125] ath5k 0000:06:02.0: registered as 'phy0'
+Oct 14 14:53:22 ubuntu-kylin kernel: [   51.132117] kvm: Nested Virtualization enabled
+Oct 14 14:53:23 ubuntu-kylin failsafe: Failsafe of 120 seconds reached.
+Oct 14 14:53:23 ubuntu-kylin kernel: [   51.854172] hda-intel 0000:00:14.2: Using LPIB position fix
+Oct 14 14:53:23 ubuntu-kylin kernel: [   51.885453] hda-intel 0000:00:14.2: Enable sync_write for stable communication
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088456] SKU: Nid=0x0 sku_cfg=0x0000140d
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088462] SKU: port_connectivity=0x0
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088469] SKU: enable_pcbeep=0x1
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088470] SKU: check_sum=0x00000000
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088472] SKU: customization=0x00000000
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088473] SKU: external_amp=0x1
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088475] SKU: platform_type=0x1
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088476] SKU: swap=0x0
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088478] SKU: override=0x1
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088705] autoconfig: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088707]    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088710]    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088711]    mono: mono_out=0x0
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088713]    dig-out=0x1e/0x0
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088719]    inputs:
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088721]      Mic=0x18
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088723]      Line=0x1a
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088724]      CD=0x1c
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.088726] realtek: Enabling init ASM_ID=0x140d CODEC_ID=10ec0883
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.280166] autoconfig: line_outs=0 (0x0/0x0/0x0/0x0/0x0) type:line
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.280173]    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.280205]    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.280206]    mono: mono_out=0x0
+Oct 14 14:53:23 ubuntu-kylin kernel: [   52.280208]    inputs:
+Oct 14 14:53:24 ubuntu-kylin ModemManager[1287]: <info>  ModemManager (version 1.0.0) starting...
+Oct 14 14:53:24 ubuntu-kylin kernel: [   52.839361] acer_wmi: Acer Laptop ACPI-WMI Extras
+Oct 14 14:53:24 ubuntu-kylin kernel: [   52.850658] acer_wmi: Function bitmap for Communication Device: 0x21
+Oct 14 14:53:24 ubuntu-kylin kernel: [   52.850672] acer_wmi: Disabling ACPI video driver
+Oct 14 14:53:24 ubuntu-kylin kernel: [   52.871699] input: Acer BMA150 accelerometer as /devices/virtual/input/input18
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> NetworkManager (version 0.9.8.8) is starting...
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> Read config file /etc/NetworkManager/NetworkManager.conf
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> WEXT support is enabled
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> VPN: loaded org.freedesktop.NetworkManager.pptp
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> DNS: loaded plugin dnsmasq
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126336] cfg80211: World regulatory domain updated:
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126344] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126347] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126349] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126352] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126354] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.126356] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+Oct 14 14:53:24 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.242993] pcmcia_socket pcmcia_socket0: cs: IO port probe 0x100-0x3af:
+Oct 14 14:53:24 ubuntu-kylin polkitd[1329]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 14 14:53:24 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.353403]  excluding 0x170-0x177 0x1f0-0x1f7 0x280-0x297 0x370-0x377
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.354464] pcmcia_socket pcmcia_socket0: cs: IO port probe 0x3e0-0x4ff:
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.354984]  excluding 0x3f0-0x3f7 0x408-0x40f 0x4d0-0x4d7
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.355458] pcmcia_socket pcmcia_socket0: cs: IO port probe 0x820-0x8ff:
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: init!
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: update_system_hostname
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:       interface-parser: parsing file /etc/network/interfaces
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPluginIfupdown: management mode: unmanaged
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: devices added (path: /sys/devices/pci0000:00/0000:00:14.4/0000:06:01.0/net/eth0, iface: eth0)
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: device added (path: /sys/devices/pci0000:00/0000:00:14.4/0000:06:01.0/net/eth0, iface: eth0): no ifupdown configuration found.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: end _init.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> Loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> Loaded plugin keyfile: (c) 2007 - 2010 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ofono: Acquired D-Bus service com.canonical.NMOfono
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ofono: init!
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ofono: end _init.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]: <info> Loaded plugin (null): (null)
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    Ifupdown: get unmanaged devices count: 0
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: (148230952) ... get_connections.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: (148230952) ... get_connections (managed=false): return empty list.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ofono: (148099096) ... get_connections.
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ofono: (148099096) connections count: 0
+Oct 14 14:53:24 ubuntu-kylin NetworkManager[1322]:    Ifupdown: get unmanaged devices count: 0
+Oct 14 14:53:24 ubuntu-kylin kernel: [   53.401351]  excluding 0x878-0x87f
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.431913] pcmcia_socket pcmcia_socket0: cs: IO port probe 0xc00-0xcf7:
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434121]  excluding 0xc00-0xc07 0xc10-0xc17 0xc50-0xc57 0xc68-0xc6f 0xcd0-0xcdf
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434572] pcmcia_socket pcmcia_socket0: cs: memory probe 0x0c0000-0x0fffff:
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434582]  excluding 0xc0000-0xfffff
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434601] pcmcia_socket pcmcia_socket0: cs: memory probe 0xa0000000-0xa0ffffff:
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434613]  clean.
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434629] pcmcia_socket pcmcia_socket0: cs: memory probe 0x60000000-0x60ffffff:
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434640]  clean.
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.434656] pcmcia_socket pcmcia_socket0: cs: IO port probe 0xa00-0xaff:
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.435677]  clean.
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> rfkill0: found WiFi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill0) (platform driver acer-wmi)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> WiFi enabled by radio killswitch; enabled by state file
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> WWAN enabled by radio killswitch; enabled by state file
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> Networking is enabled by state file
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <warn> failed to allocate link cache: (-12) Object not found
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): carrier is OFF
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): new Ethernet device (driver: '8139too' ifindex: 2)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): exported as /org/freedesktop/NetworkManager/Devices/0
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): bringing up device.
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.491083] 8139too 0000:06:01.0 eth0: link down
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): preparing device.
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (eth0): deactivating device (reason 'managed') [2]
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.492670] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.494567] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> Added default wired connection 'Wired connection 1' for /sys/devices/pci0000:00/0000:00:14.4/0000:06:01.0/net/eth0
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <warn> /sys/devices/virtual/net/lo: couldn't determine device driver; ignoring...
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <warn> /sys/devices/virtual/net/lo: couldn't determine device driver; ignoring...
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> urfkill disappeared from the bus
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> ModemManager available in the bus
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.939850] ath: EEPROM regdomain: 0x63
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.939856] ath: EEPROM indicates we should expect a direct regpair map
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.939860] ath: Country alpha2 being used: 00
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.939862] ath: Regpair used: 0x63
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.973503] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+Oct 14 14:53:25 ubuntu-kylin kernel: [   53.974091] ath5k: phy0: Atheros AR2413 chip found (MAC: 0x78, PHY: 0x45)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> rfkill1: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.4/0000:06:02.0/ieee80211/phy0/rfkill1) (driver ath5k)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): using nl80211 for WiFi device control
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): driver supports Access Point (AP) mode
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): new 802.11 WiFi device (driver: 'ath5k' ifindex: 3)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): exported as /org/freedesktop/NetworkManager/Devices/1
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): bringing up device.
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): preparing device.
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): deactivating device (reason 'managed') [2]
+Oct 14 14:53:25 ubuntu-kylin kernel: [   54.050553] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Oct 14 14:53:25 ubuntu-kylin kernel: [   54.051998] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Oct 14 14:53:25 ubuntu-kylin dbus[986]: [system] Activating service name='fi.w1.wpa_supplicant1' (using servicehelper)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: devices added (path: /sys/devices/pci0000:00/0000:00:14.4/0000:06:02.0/net/wlan0, iface: wlan0)
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]:    SCPlugin-Ifupdown: device added (path: /sys/devices/pci0000:00/0000:00:14.4/0000:06:02.0/net/wlan0, iface: wlan0): no ifupdown configuration found.
+Oct 14 14:53:25 ubuntu-kylin dbus[986]: [system] Successfully activated service 'fi.w1.wpa_supplicant1'
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> wpa_supplicant started
+Oct 14 14:53:25 ubuntu-kylin wpa_supplicant[1365]: Successfully initialized wpa_supplicant
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0) supports 4 scan SSIDs
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <warn> Trying to remove a non-existant call id.
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): supplicant interface state: starting -> ready
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): device state change: unavailable -> disconnected (reason 'supplicant-available') [20 30 42]
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): supplicant interface state: ready -> disconnected
+Oct 14 14:53:25 ubuntu-kylin NetworkManager[1322]: <info> (wlan0) supports 4 scan SSIDs
+Oct 14 14:53:25 ubuntu-kylin wpa_supplicant[1380]: wlan0: CTRL-EVENT-SCAN-STARTED 
+Oct 14 14:53:26 ubuntu-kylin ntpdate[1432]: Can't find host ntp.ubuntu.com: Name or service not known (-2)
+Oct 14 14:53:26 ubuntu-kylin ntpdate[1432]: no servers can be used, exiting
+Oct 14 14:53:26 ubuntu-kylin ModemManager[1287]: <warn>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:14.4/0000:06:01.0': not supported by any plugin
+Oct 14 14:53:26 ubuntu-kylin NetworkManager[1322]: <info> (wlan0): supplicant interface state: disconnected -> inactive
+Oct 14 14:53:27 ubuntu-kylin ModemManager[1287]: <warn>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:14.4/0000:06:02.0': not supported by any plugin
+Oct 14 14:53:28 ubuntu-kylin acpid: starting up with netlink and the input layer
+Oct 14 14:53:28 ubuntu-kylin acpid: 9 rules loaded
+Oct 14 14:53:28 ubuntu-kylin acpid: waiting for events: event logging is off
+Oct 14 14:53:28 ubuntu-kylin cron[1492]: (CRON) INFO (pidfile fd = 3)
+Oct 14 14:53:28 ubuntu-kylin cron[1676]: (CRON) STARTUP (fork ok)
+Oct 14 14:53:28 ubuntu-kylin cron[1676]: (CRON) INFO (Running @reboot jobs)
+Oct 14 14:53:29 ubuntu-kylin /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cache domain.  Shutting down
+Oct 14 14:53:35 ubuntu-kylin NetworkManager[1322]: <info> WiFi hardware radio set enabled
+Oct 14 14:53:37 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.Accounts' (using servicehelper)
+Oct 14 14:53:37 ubuntu-kylin accounts-daemon[2018]: started daemon version 0.6.35
+Oct 14 14:53:37 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.Accounts'
+Oct 14 14:53:37 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.UPower' (using servicehelper)
+Oct 14 14:53:37 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 14 14:53:38 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.RealtimeKit1' (using servicehelper)
+Oct 14 14:53:38 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Successfully called chroot.
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Successfully dropped privileges.
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Successfully limited resources.
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Running.
+Oct 14 14:53:38 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Watchdog thread running.
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Canary thread running.
+Oct 14 14:53:38 ubuntu-kylin polkitd[2158]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 14 14:53:38 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Successfully made thread 2147 of process 2147 (n/a) owned by '999' high priority at nice level -11.
+Oct 14 14:53:38 ubuntu-kylin rtkit-daemon[2150]: Supervising 1 threads of 1 processes of 1 users.
+Oct 14 14:53:39 ubuntu-kylin rtkit-daemon[2150]: Successfully made thread 2255 of process 2147 (n/a) owned by '999' RT at priority 5.
+Oct 14 14:53:39 ubuntu-kylin rtkit-daemon[2150]: Supervising 2 threads of 1 processes of 1 users.
+Oct 14 14:53:39 ubuntu-kylin rtkit-daemon[2150]: Successfully made thread 2256 of process 2147 (n/a) owned by '999' RT at priority 5.
+Oct 14 14:53:39 ubuntu-kylin rtkit-daemon[2150]: Supervising 3 threads of 1 processes of 1 users.
+Oct 14 14:53:39 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.systemd1' (using servicehelper)
+Oct 14 14:53:39 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Oct 14 14:53:45 ubuntu-kylin ubiquity[2101]: Ubiquity 2.18.8
+Oct 14 14:53:45 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.ColorManager' (using servicehelper)
+Oct 14 14:53:45 ubuntu-kylin colord: Using config file /etc/colord.conf
+Oct 14 14:53:45 ubuntu-kylin colord: Using mapping database file /var/lib/colord/mapping.db
+Oct 14 14:53:45 ubuntu-kylin colord: Using device database file /var/lib/colord/storage.db
+Oct 14 14:53:45 ubuntu-kylin colord: loaded plugin libcd_plugin_camera.so
+Oct 14 14:53:45 ubuntu-kylin colord: plugin /usr/lib/i386-linux-gnu/colord-plugins/libcd_plugin_sane.so not loaded: plugin refused to load
+Oct 14 14:53:45 ubuntu-kylin colord: loaded plugin libcd_plugin_scanner.so
+Oct 14 14:53:45 ubuntu-kylin colord: Daemon ready for requests
+Oct 14 14:53:45 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-c3e6382fa9b2d31b01b736f6f97aac3a
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-3a34aa6c3d1fb1ef63ff41e04ee00979
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-82f5d16fcef1fbd987b6a82c94104464
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-b2016991d9b9c2cf940a251d1441c7fc
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-6a245ab2d8892e2e56232af93cd48b81
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-288a6f2c3bb54a1d2a29221c9caf5011
+Oct 14 14:53:45 ubuntu-kylin colord: Profile added: icc-a10be98be58460669fcdc6946939b7cf
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-523e494bc2f53c53d51d0758b07f4879
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-56cc29b73a685afb027a630b6d5057dc
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-ccebee4c2d6eddc597c1425ac2f128b1
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-2ee6b6114ddeed0d4f61e0211c23427b
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-8b73141bce6d164037dd46000bafb2a2
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-94ec9a8cbcf45963ef9bfbe80b33e02f
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-fb41735d46e9e2c5b7dfa641160c3393
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-50e7bd95c5a7d850b2051ad93a63906d
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-3c54e22f77a8f6175941c3f39f1029f9
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-72f5b1cba915b68ea75cc843e270df5a
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-0383c34650771ce95ef93fe916867725
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-6ad6d63767ce0393245528ada92f1cb2
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-c227f46f246694ba9971f270cb61a0c1
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-b0701c2ccf059287d0b067464df8bda9
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-fd79463e1808f0d8ea7a8f7eefd3256b
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-353a6bcabda00f04b6988f89126ce6f5
+Oct 14 14:53:46 ubuntu-kylin colord: Profile added: icc-654b99c87e67edb1c1cfb0dcb7fa9d04
+Oct 14 14:53:47 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.locale1' (using servicehelper)
+Oct 14 14:53:47 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.locale1'
+Oct 14 14:53:47 ubuntu-kylin colord: Device added: xrandr-Dell Inc.-DELL E2213-61HT23AV14AM
+Oct 14 14:53:47 ubuntu-kylin colord: Device added: xrandr-Quanta Display Inc.
+Oct 14 14:53:50 ubuntu-kylin colord: Automatic metadata add icc-81bf381f63838b537e5818a19106df9e to xrandr-Quanta Display Inc.
+Oct 14 14:53:50 ubuntu-kylin colord: Profile added: icc-81bf381f63838b537e5818a19106df9e
+Oct 14 14:53:50 ubuntu-kylin colord: Automatic metadata add icc-ad02142351df3f8a0a1929ca17180947 to xrandr-Dell Inc.-DELL E2213-61HT23AV14AM
+Oct 14 14:53:50 ubuntu-kylin colord: Profile added: icc-ad02142351df3f8a0a1929ca17180947
+Oct 14 14:53:58 ubuntu-kylin ubiquity[2101]: switched to page language
+Oct 14 14:53:59 ubuntu-kylin localechooser: info: debian-installer/locale preseeded to 'zh_CN.UTF-8' (seen: true)
+Oct 14 14:53:59 ubuntu-kylin localechooser: info: Set localechooser/languagelist = 'zh_CN'
+Oct 14 14:53:59 ubuntu-kylin localechooser: info: Set debian-installer/country = 'CN'
+Oct 14 14:53:59 ubuntu-kylin localechooser: info: Set debian-installer/locale = 'zh_CN.UTF-8'
+Oct 14 14:54:00 ubuntu-kylin ubiquity[2101]: log-output -t ubiquity setxkbmap -layout cn -variant 
+Oct 14 14:54:00 ubuntu-kylin ubiquity[2101]: switched to page wireless
+Oct 14 14:54:00 ubuntu-kylin ubiquity[2101]: switched to page language
+Oct 14 14:54:07 ubuntu-kylin localechooser: info: Set debian-installer/country = 'CN'
+Oct 14 14:54:07 ubuntu-kylin localechooser: info: Preseeded debian-installer/locale = 'zh_CN.UTF-8'
+Oct 14 14:54:07 ubuntu-kylin localechooser: info: Set debian-installer/locale = 'zh_CN.UTF-8'
+Oct 14 14:54:07 ubuntu-kylin localechooser: info: System locale (debian-installer/locale) = 'zh_CN.UTF-8'
+Oct 14 14:54:07 ubuntu-kylin localechooser: info: Set debian-installer/language = 'zh_CN:'
+Oct 14 14:54:09 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-language (current: ubi-language)
+Oct 14 14:54:09 ubuntu-kylin ubiquity[2101]: Step_before = stepLanguage
+Oct 14 14:54:09 ubuntu-kylin ubiquity[2101]: switched to page wireless
+Oct 14 14:54:09 ubuntu-kylin ubiquity[2101]: switched to page wireless
+Oct 14 14:54:15 ubuntu-kylin ubiquity[2101]: Step_before = stepWireless
+Oct 14 14:54:16 ubuntu-kylin ubiquity[2101]: switched to page prepare
+Oct 14 14:54:26 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-prepare (current: ubi-prepare)
+Oct 14 14:54:26 ubuntu-kylin ubiquity[2101]: Step_before = stepPrepare
+Oct 14 14:54:26 ubuntu-kylin activate-dmraid: No Serial ATA RAID disks detected
+Oct 14 14:54:26 ubuntu-kylin kernel: [  114.897263] xor: measuring software checksum speed
+Oct 14 14:54:26 ubuntu-kylin kernel: [  114.936015]    pIII_sse  :  5876.000 MB/sec
+Oct 14 14:54:26 ubuntu-kylin kernel: [  114.976014]    prefetch64-sse:  5881.000 MB/sec
+Oct 14 14:54:26 ubuntu-kylin kernel: [  114.976017] xor: using function: prefetch64-sse (5881.000 MB/sec)
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.072023] raid6: mmxx1     1652 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.140030] raid6: mmxx2     3027 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.208073] raid6: sse1x1     584 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.276016] raid6: sse1x2     991 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.344049] raid6: sse2x1    1036 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.412035] raid6: sse2x2    1686 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.480020] raid6: int32x1    819 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.548042] raid6: int32x2    809 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.616017] raid6: int32x4    670 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.684081] raid6: int32x8    446 MB/s
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.684083] raid6: using algorithm mmxx2 (3027 MB/s)
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.684085] raid6: using intx1 recovery algorithm
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.789933] bio: create slab <bio-1> at 1
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.796632] Btrfs loaded
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.865470] JFS: nTxBlock = 8004, nTxLock = 64035
+Oct 14 14:54:27 ubuntu-kylin kernel: [  115.975777] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Oct 14 14:54:27 ubuntu-kylin partman:   No matching physical volumes found
+Oct 14 14:54:27 ubuntu-kylin partman:   Reading all physical volumes.  This may take a while...
+Oct 14 14:54:27 ubuntu-kylin partman:   
+Oct 14 14:54:27 ubuntu-kylin partman: No volume groups found
+Oct 14 14:54:27 ubuntu-kylin partman: 
+Oct 14 14:54:27 ubuntu-kylin partman-lvm:   
+Oct 14 14:54:27 ubuntu-kylin partman-lvm: No volume groups found
+Oct 14 14:54:27 ubuntu-kylin partman-lvm: 
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Device name        : /dev/sda1
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Current volume size: 26847310336 bytes (26848 MB)
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Current device size: 26847313920 bytes (26848 MB)
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Inode is corrupt (5): 输入/输出错误
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Cluster accounting failed at 16402 (0x4012): extra cluster in $Bitmap
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Cluster accounting failed at 25066 (0x61ea): missing cluster in $Bitmap
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Cluster accounting failed at 93247 (0x16c3f): extra cluster in $Bitmap
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: Filesystem check failed! Totally 3 cluster accounting mismatches.
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: ERROR: NTFS is inconsistent. Run chkdsk /f on Windows then reboot it TWICE!
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: The usage of the /f parameter is very IMPORTANT! No modification was
+Oct 14 14:54:32 ubuntu-kylin ntfsresize: and will be made to NTFS by this software until it gets repaired.
+Oct 14 14:54:32 ubuntu-kylin partman: Error running 'ntfsresize --info'
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Device name        : /dev/sda5
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current volume size: 41940668928 bytes (41941 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current device size: 41940670464 bytes (41941 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Space in use       : 1768 MB (4.2%)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Collecting resizing constraints ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: You might resize at 1767272448 bytes or 1768 MB (freeing 40173 MB).
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Please make a test run using both the -n and -s options before real resizing!
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Device name        : /dev/sda6
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current volume size: 46003958272 bytes (46004 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current device size: 46003958784 bytes (46004 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Space in use       : 92 MB (0.2%)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Collecting resizing constraints ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: You might resize at 91344896 bytes or 92 MB (freeing 45912 MB).
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Please make a test run using both the -n and -s options before real resizing!
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Device name        : /dev/sda6
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current volume size: 46003958272 bytes (46004 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Current device size: 46003958784 bytes (46004 MB)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Space in use       : 92 MB (0.2%)
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Collecting resizing constraints ...
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: You might resize at 91344896 bytes or 92 MB (freeing 45912 MB).
+Oct 14 14:54:33 ubuntu-kylin ntfsresize: Please make a test run using both the -n and -s options before real resizing!
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Device name        : /dev/sda1
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Current volume size: 26847310336 bytes (26848 MB)
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Current device size: 26847313920 bytes (26848 MB)
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Inode is corrupt (5): 输入/输出错误
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Cluster accounting failed at 16402 (0x4012): extra cluster in $Bitmap
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Cluster accounting failed at 25066 (0x61ea): missing cluster in $Bitmap
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Cluster accounting failed at 93247 (0x16c3f): extra cluster in $Bitmap
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: Filesystem check failed! Totally 3 cluster accounting mismatches.
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: ERROR: NTFS is inconsistent. Run chkdsk /f on Windows then reboot it TWICE!
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: The usage of the /f parameter is very IMPORTANT! No modification was
+Oct 14 14:54:37 ubuntu-kylin ntfsresize: and will be made to NTFS by this software until it gets repaired.
+Oct 14 14:54:37 ubuntu-kylin partman: Error running 'ntfsresize --info'
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: ntfsresize v2013.1.13AR.1 (libntfs-3g)
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Device name        : /dev/sda1
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: NTFS volume version: 3.1
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Cluster size       : 4096 bytes
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Current volume size: 26847310336 bytes (26848 MB)
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Current device size: 26847313920 bytes (26848 MB)
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Checking filesystem consistency ...
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Inode is corrupt (5): 输入/输出错误
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Accounting clusters ...
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Cluster accounting failed at 16402 (0x4012): extra cluster in $Bitmap
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Cluster accounting failed at 25066 (0x61ea): missing cluster in $Bitmap
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Cluster accounting failed at 93247 (0x16c3f): extra cluster in $Bitmap
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: Filesystem check failed! Totally 3 cluster accounting mismatches.
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: ERROR: NTFS is inconsistent. Run chkdsk /f on Windows then reboot it TWICE!
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: The usage of the /f parameter is very IMPORTANT! No modification was
+Oct 14 14:54:40 ubuntu-kylin ntfsresize: and will be made to NTFS by this software until it gets repaired.
+Oct 14 14:54:40 ubuntu-kylin partman: Error running 'ntfsresize --info'
+Oct 14 14:54:40 ubuntu-kylin kernel: [  129.318417] NTFS driver 2.1.30 [Flags: R/O MODULE].
+Oct 14 14:54:40 ubuntu-kylin kernel: [  129.403273] QNX4 filesystem 0.2.3 registered.
+Oct 14 14:54:41 ubuntu-kylin os-prober:   
+Oct 14 14:54:41 ubuntu-kylin os-prober: stdin: fdopen failed: 无效的参数
+Oct 14 14:54:41 ubuntu-kylin os-prober: 
+Oct 14 14:54:41 ubuntu-kylin os-prober:   
+Oct 14 14:54:41 ubuntu-kylin os-prober: stdin: fclose failed: 无效的参数
+Oct 14 14:54:41 ubuntu-kylin os-prober: 
+Oct 14 14:54:41 ubuntu-kylin os-prober:   
+Oct 14 14:54:41 ubuntu-kylin os-prober: stdin: fdopen failed: 无效的参数
+Oct 14 14:54:41 ubuntu-kylin os-prober: 
+Oct 14 14:54:41 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda1
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Version 2013.1.13AR.1 external FUSE 29
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Mounted /dev/sda1 (Read-Only, label "", NTFS 3.1)
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Cmdline options: ro
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Mount options: ro,allow_other,nonempty,relatime,fsname=/dev/sda1,blkdev,blksize=4096
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Could not open file $Secure
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Ownership and permissions disabled, configuration type 7
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: mounted as ntfs-3g filesystem
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/05efi
+Oct 14 14:54:41 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10freedos
+Oct 14 14:54:41 ubuntu-kylin 10freedos: debug: /dev/sda1 is not a FAT partition: exiting
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10qnx
+Oct 14 14:54:41 ubuntu-kylin 10qnx: debug: /dev/sda1 is not a QNX4 partition: exiting
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20macosx
+Oct 14 14:54:41 ubuntu-kylin macosx-prober: debug: /dev/sda1 is not an HFS+ partition: exiting
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20microsoft
+Oct 14 14:54:41 ubuntu-kylin 20microsoft: debug: /dev/sda1 is a NTFS partition
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: No file name found in inode 5
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Parent directory not found: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: No file name found in inode 5
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Parent directory not found: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: No file name found in inode 5
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Parent directory not found: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: No file name found in inode 5
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Parent directory not found: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/30utility
+Oct 14 14:54:41 ubuntu-kylin 30utility: debug: /dev/sda1 is not a FAT partition: exiting
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/40lsb
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Index root attribute missing in directory inode 5: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/70hurd
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/80minix
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/83haiku
+Oct 14 14:54:41 ubuntu-kylin 83haiku: debug: /dev/sda1 is not a BeFS partition: exiting
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90linux-distro
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Index root attribute missing in directory inode 5: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: No file name found in inode 5
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Parent directory not found: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Index root attribute missing in directory inode 5: 没有那个文件或目录
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90solaris
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/efi
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: message repeated 5 times: [ Index root attribute missing in directory inode 5: 没有那个文件或目录]
+Oct 14 14:54:41 ubuntu-kylin ntfs-3g[5229]: Unmounting /dev/sda1 ()
+Oct 14 14:54:41 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 14 14:54:41 ubuntu-kylin 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Oct 14 14:54:41 ubuntu-kylin os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 14 14:54:41 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda5
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: mounted using GRUB ntfs filesystem driver
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/05efi
+Oct 14 14:54:42 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10freedos
+Oct 14 14:54:42 ubuntu-kylin 10freedos: debug: /dev/sda5 is not a FAT partition: exiting
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10qnx
+Oct 14 14:54:42 ubuntu-kylin 10qnx: debug: /dev/sda5 is not a QNX4 partition: exiting
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20macosx
+Oct 14 14:54:42 ubuntu-kylin macosx-prober: debug: /dev/sda5 is not an HFS+ partition: exiting
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20microsoft
+Oct 14 14:54:42 ubuntu-kylin 20microsoft: debug: /dev/sda5 is a NTFS partition
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/30utility
+Oct 14 14:54:42 ubuntu-kylin 30utility: debug: /dev/sda5 is not a FAT partition: exiting
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/40lsb
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/70hurd
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/80minix
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/83haiku
+Oct 14 14:54:42 ubuntu-kylin 83haiku: debug: /dev/sda5 is not a BeFS partition: exiting
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90linux-distro
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90solaris
+Oct 14 14:54:42 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/efi
+Oct 14 14:54:42 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda6
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: mounted using GRUB ntfs filesystem driver
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/05efi
+Oct 14 14:54:43 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10freedos
+Oct 14 14:54:43 ubuntu-kylin 10freedos: debug: /dev/sda6 is not a FAT partition: exiting
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/10qnx
+Oct 14 14:54:43 ubuntu-kylin 10qnx: debug: /dev/sda6 is not a QNX4 partition: exiting
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20macosx
+Oct 14 14:54:43 ubuntu-kylin macosx-prober: debug: /dev/sda6 is not an HFS+ partition: exiting
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/20microsoft
+Oct 14 14:54:43 ubuntu-kylin 20microsoft: debug: /dev/sda6 is a NTFS partition
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/30utility
+Oct 14 14:54:43 ubuntu-kylin 30utility: debug: /dev/sda6 is not a FAT partition: exiting
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/40lsb
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/70hurd
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/80minix
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/83haiku
+Oct 14 14:54:43 ubuntu-kylin 83haiku: debug: /dev/sda6 is not a BeFS partition: exiting
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90linux-distro
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/90solaris
+Oct 14 14:54:43 ubuntu-kylin 50mounted-tests: debug: running subtest /usr/lib/os-probes/mounted/efi
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 10freedos: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 10qnx: debug: /dev/sdb4 is not a QNX4 partition: exiting
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin macosx-prober: debug: /dev/sdb4 is not an HFS+ partition: exiting
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 20microsoft: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 30utility: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin 83haiku: debug: /dev/sdb4 is not a BeFS partition: exiting
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb4
+Oct 14 14:54:43 ubuntu-kylin ubiquity[2101]: Device free not found in os-prober output
+Oct 14 14:54:43 ubuntu-kylin ubiquity[2101]: Device /dev/sda1 not found in os-prober output
+Oct 14 14:54:43 ubuntu-kylin ubiquity[2101]: Device /dev/sda5 not found in os-prober output
+Oct 14 14:54:43 ubuntu-kylin ubiquity[2101]: Device /dev/sda6 not found in os-prober output
+Oct 14 14:54:43 ubuntu-kylin ubiquity[2101]: switched to page partman
+Oct 14 14:55:02 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-partman (current: ubi-partman)
+Oct 14 14:55:02 ubuntu-kylin ubiquity[2101]: Step_before = stepPartAsk
+Oct 14 14:55:03 ubuntu-kylin ubiquity[2101]: switched to page timezone
+Oct 14 14:55:03 ubuntu-kylin ubiquity[2101]: Geoname lookup for "Shanghai" failed: 2 Cannot resolve hostname (geoname-lookup.ubuntu.com)
+Oct 14 14:55:05 ubuntu-kylin kernel: [  153.597495] Adding 1044476k swap on /dev/sda5.  Priority:-1 extents:1 across:1044476k FS
+Oct 14 14:55:05 ubuntu-kylin partman: mke2fs 1.42.9 (4-Feb-2014)
+Oct 14 14:55:06 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-timezone (current: ubi-timezone)
+Oct 14 14:55:06 ubuntu-kylin ubiquity[2101]: Step_before = stepLocation
+Oct 14 14:55:08 ubuntu-kylin ubiquity[2101]: switched to page console_setup
+Oct 14 14:55:08 ubuntu-kylin ubiquity[2101]: log-output -t ubiquity setxkbmap -model pc105 -layout cn -option  -option lv3:ralt_switch
+Oct 14 14:55:11 ubuntu-kylin kernel: [  159.873047] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Oct 14 14:55:12 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubiquity.components.partman_commit (current: ubi-console-setup)
+Oct 14 14:55:12 ubuntu-kylin /install.py: keeping packages due to preseeding: 
+Oct 14 14:55:12 ubuntu-kylin /install.py: keeping language packs for: en_US.UTF-8 zh_CN.UTF-8
+Oct 14 14:55:20 ubuntu-kylin ubiquity[2101]: log-output -t ubiquity setxkbmap -model pc105 -layout cn -variant tib -option  -option lv3:ralt_switch
+Oct 14 14:55:20 ubuntu-kylin ubiquity[2101]: log-output -t ubiquity setxkbmap -model pc105 -layout cn -option  -option lv3:ralt_switch
+Oct 14 14:55:25 ubuntu-kylin ubiquity: Your console font configuration will be updated the next time your system
+Oct 14 14:55:25 ubuntu-kylin ubiquity: boots. If you want to update it now, run 'setupcon' from a virtual console.
+Oct 14 14:55:25 ubuntu-kylin ubiquity[2101]: log-output -t ubiquity setxkbmap -model pc105 -layout cn -option 
+Oct 14 14:55:25 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-console-setup (current: ubi-console-setup)
+Oct 14 14:55:25 ubuntu-kylin ubiquity[2101]: Step_before = stepKeyboardConf
+Oct 14 14:55:26 ubuntu-kylin ubiquity[2101]: switched to page usersetup
+Oct 14 14:56:13 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubi-usersetup (current: ubi-usersetup)
+Oct 14 14:56:13 ubuntu-kylin ubiquity[2101]: Step_before = stepUserInfo
+Oct 14 14:59:52 ubuntu-kylin ubiquity[2101]: debconffilter_done: ubiquity.components.install (current: None)
+Oct 14 15:00:02 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target python2.7 /usr/lib/python2.7/py_compile.py
+Oct 14 15:00:02 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target python2.7 /usr/lib/python2.7/py_compile.py
+Oct 14 15:00:03 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target python3.4 /usr/lib/python3.4/py_compile.py
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Listing /usr/share/python/ ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Listing /usr/share/python/debpython ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Compiling /usr/share/python/debpython/debhelper.py ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Compiling /usr/share/python/debpython/depends.py ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Listing /usr/share/python/dist ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Compiling /usr/share/python/pyversions.py ...
+Oct 14 15:00:04 ubuntu-kylin ubiquity: Listing /usr/share/python/runtime.d ...
+Oct 14 15:00:03 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target python3.4 /usr/lib/python3.4/py_compile.py
+Oct 14 15:00:04 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target python2.7 -m compileall /usr/share/python/
+Oct 14 15:00:05 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target py3compile -p python3 /usr/share/python3/
+Oct 14 15:00:05 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:00:05 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:00:05 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:00:06 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/public_modules.rtinstall rtinstall python2.7  2.7.6-8
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apt-xapian-index.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/python-tz.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ubuntu-kylin-software-center.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus-table.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/software-center.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/hplip-data.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/indicator-china-weather.rtupdate pre-rtupdate python2.7 python2.7
+Oct 14 15:00:23 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:24 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apt-xapian-index.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:24 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:25 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/python-tz.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:26 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ubuntu-kylin-software-center.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:26 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus-table.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:28 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/software-center.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/hplip-data.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/indicator-china-weather.rtupdate rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apt-xapian-index.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/python-tz.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ubuntu-kylin-software-center.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/ibus-table.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/software-center.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/hplip-data.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:30 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/indicator-china-weather.rtupdate post-rtupdate python2.7 python2.7
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/public_modules.rtinstall rtinstall python3.4  3.4.0-2ubuntu1
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/onboard.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-magnatune.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:40 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate pre-rtupdate python3.4 python3.4
+Oct 14 15:00:41 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:42 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:43 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:43 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:44 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:45 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/onboard.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:46 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:47 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-magnatune.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/onboard.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-magnatune.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate post-rtupdate python3.4 python3.4
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:00:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:00:50 ubuntu-kylin localechooser: Generating locales...
+Oct 14 15:00:50 ubuntu-kylin localechooser:   zh_CN.UTF-8... 
+Oct 14 15:00:54 ubuntu-kylin localechooser: done
+Oct 14 15:00:54 ubuntu-kylin localechooser: Generation complete.
+Oct 14 15:00:54 ubuntu-kylin localechooser: 正在添加 /usr/lib/locale/zh_CN.utf8
+Oct 14 15:00:54 ubuntu-kylin localechooser: 区域“zh_CN.utf8”已存在
+Oct 14 15:00:54 ubuntu-kylin localechooser: 
+Oct 14 15:00:55 ubuntu-kylin localechooser: Generating locales...
+Oct 14 15:00:55 ubuntu-kylin localechooser:   en_US.UTF-8... 
+Oct 14 15:00:56 ubuntu-kylin localechooser: done
+Oct 14 15:00:56 ubuntu-kylin localechooser: Generation complete.
+Oct 14 15:00:57 ubuntu-kylin localechooser: 正在添加 /usr/lib/locale/en_US.utf8
+Oct 14 15:00:57 ubuntu-kylin localechooser: 区域“en_US.utf8”已存在
+Oct 14 15:00:57 ubuntu-kylin localechooser: 
+Oct 14 15:00:57 ubuntu-kylin ubiquity: umount：/target/cdrom：未找到
+Oct 14 15:00:57 ubuntu-kylin ubiquity: 
+Oct 14 15:00:57 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/cdrom
+Oct 14 15:00:57 ubuntu-kylin ubiquity: mount: warning: /target/cdrom seems to be mounted read-only.
+Oct 14 15:00:57 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /cdrom /target/cdrom
+Oct 14 15:00:58 ubuntu-kylin ubiquity: /usr/lib/ubiquity/apt-setup/generators/01setup: 9: /usr/lib/ubiquity/apt-setup/generators/01setup: 
+Oct 14 15:00:58 ubuntu-kylin ubiquity: cannot open /target/etc/apt/sources.list: No such file
+Oct 14 15:00:58 ubuntu-kylin ubiquity: 
+Oct 14 15:01:02 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:02 ubuntu-kylin in-target:   
+Oct 14 15:01:02 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:02 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:02 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:03 ubuntu-kylin in-target: 
+Oct 14 15:01:03 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:03 ubuntu-kylin in-target: 
+Oct 14 15:01:03 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:03 ubuntu-kylin in-target: 
+Oct 14 15:01:03 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 现把 /cdrom/ 作为了 CD-ROM 的挂载点
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 正在鉴别... 
+Oct 14 15:01:04 ubuntu-kylin apt-setup: [953f70023983715e82b56a49398c5a0e-2]
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 正在盘片中查找索引文件...
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 找到了 4 个软件包索引、0 个源代码包索引、0 个翻译索引和 1 个数字签名
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 找到标签 'Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)'
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 这张盘片现在的名字是：
+Oct 14 15:01:04 ubuntu-kylin apt-setup: “Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)”
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 正在复制软件包列表……
+Oct 14 15:01:04 ubuntu-kylin apt-setup: gpgv: 
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 于 2014年07月23日 星期三 07时45分09秒 CST 创建的签名，使用 DSA，钥匙号 FBB75451
+Oct 14 15:01:04 ubuntu-kylin apt-setup: gpgv: 
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 完好的签名，来自于“Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>”
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 
+Oct 14 15:01:04 ubuntu-kylin apt-setup: #015Reading Package Indexes... 0%#015
+Oct 14 15:01:04 ubuntu-kylin apt-setup: #015Reading Package Indexes... 完成#015
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 正在写入新的源列表
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 对应于该盘片的软件源设置项是：
+Oct 14 15:01:04 ubuntu-kylin apt-setup: deb cdrom:[Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)]/ trusty main multiverse restricted universe
+Oct 14 15:01:04 ubuntu-kylin apt-setup: 请对您的盘片套件中的其它盘片重复相同的操作。
+Oct 14 15:01:06 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:06 ubuntu-kylin in-target:   
+Oct 14 15:01:06 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:06 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty InRelease
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/main Translation-zh_CN
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/main Translation-zh
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/main Translation-en
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/multiverse Translation-zh_CN
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/multiverse Translation-zh
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/multiverse Translation-en
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/restricted Translation-zh_CN
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/restricted Translation-zh
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/restricted Translation-en
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/universe Translation-zh_CN
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/universe Translation-zh
+Oct 14 15:01:06 ubuntu-kylin in-target: 忽略 cdrom://Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1) trusty/universe Translation-en
+Oct 14 15:01:06 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:07 ubuntu-kylin in-target: 
+Oct 14 15:01:07 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:07 ubuntu-kylin in-target: 
+Oct 14 15:01:07 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:07 ubuntu-kylin in-target: 
+Oct 14 15:01:07 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:09 ubuntu-kylin choose-mirror[8750]: INFO: base system installable from CD; skipping mirror check
+Oct 14 15:01:09 ubuntu-kylin choose-mirror[8750]: INFO: base system installable from CD; skipping architecture check
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:10 ubuntu-kylin in-target:   
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:10 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty InRelease
+Oct 14 15:01:10 ubuntu-kylin in-target:   
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty-updates InRelease
+Oct 14 15:01:10 ubuntu-kylin in-target:   
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty-backports InRelease
+Oct 14 15:01:10 ubuntu-kylin in-target:   
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty Release.gpg
+Oct 14 15:01:10 ubuntu-kylin in-target:   无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty-updates Release.gpg
+Oct 14 15:01:10 ubuntu-kylin in-target:   无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:10 ubuntu-kylin in-target: 错误 http://cn.archive.ubuntu.com trusty-backports Release.gpg
+Oct 14 15:01:10 ubuntu-kylin in-target:   无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:10 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty/InRelease  
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty-updates/InRelease  
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty-backports/InRelease  
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty/Release.gpg  无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty-updates/Release.gpg  无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: 无法下载 http://cn.archive.ubuntu.com/ubuntu/dists/trusty-backports/Release.gpg  无法解析域名“cn.archive.ubuntu.com”
+Oct 14 15:01:11 ubuntu-kylin in-target: 
+Oct 14 15:01:11 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:13 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:13 ubuntu-kylin in-target:   
+Oct 14 15:01:13 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:13 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:13 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:13 ubuntu-kylin in-target: 
+Oct 14 15:01:13 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:13 ubuntu-kylin in-target: 
+Oct 14 15:01:13 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:13 ubuntu-kylin in-target: 
+Oct 14 15:01:13 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:16 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:16 ubuntu-kylin in-target:   
+Oct 14 15:01:16 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:16 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:16 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:16 ubuntu-kylin in-target: 
+Oct 14 15:01:16 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:16 ubuntu-kylin in-target: 
+Oct 14 15:01:16 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:16 ubuntu-kylin in-target: 
+Oct 14 15:01:16 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:18 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:18 ubuntu-kylin in-target:   
+Oct 14 15:01:18 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:18 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:18 ubuntu-kylin in-target: 错误 http://security.ubuntu.com trusty-security InRelease
+Oct 14 15:01:18 ubuntu-kylin in-target:   
+Oct 14 15:01:18 ubuntu-kylin in-target: 错误 http://security.ubuntu.com trusty-security Release.gpg
+Oct 14 15:01:18 ubuntu-kylin in-target:   无法解析域名“security.ubuntu.com”
+Oct 14 15:01:18 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:19 ubuntu-kylin in-target: 
+Oct 14 15:01:19 ubuntu-kylin in-target: W: 无法下载 http://security.ubuntu.com/ubuntu/dists/trusty-security/InRelease  
+Oct 14 15:01:19 ubuntu-kylin in-target: 
+Oct 14 15:01:19 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:19 ubuntu-kylin in-target: 
+Oct 14 15:01:19 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:19 ubuntu-kylin in-target: 
+Oct 14 15:01:19 ubuntu-kylin in-target: W: 无法下载 http://security.ubuntu.com/ubuntu/dists/trusty-security/Release.gpg  无法解析域名“security.ubuntu.com”
+Oct 14 15:01:19 ubuntu-kylin in-target: 
+Oct 14 15:01:19 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:21 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:21 ubuntu-kylin in-target:   
+Oct 14 15:01:21 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:21 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:21 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:22 ubuntu-kylin in-target: 
+Oct 14 15:01:22 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:22 ubuntu-kylin in-target: 
+Oct 14 15:01:22 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:22 ubuntu-kylin in-target: 
+Oct 14 15:01:22 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:24 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty InRelease
+Oct 14 15:01:24 ubuntu-kylin in-target:   
+Oct 14 15:01:24 ubuntu-kylin in-target: 错误 http://archive.ubuntukylin.com:10006 trusty Release.gpg
+Oct 14 15:01:24 ubuntu-kylin in-target:   无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:24 ubuntu-kylin in-target: 正在读取软件包列表...
+Oct 14 15:01:25 ubuntu-kylin in-target: 
+Oct 14 15:01:25 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/InRelease  
+Oct 14 15:01:25 ubuntu-kylin in-target: 
+Oct 14 15:01:25 ubuntu-kylin in-target: W: 无法下载 http://archive.ubuntukylin.com:10006/ubuntukylin/dists/trusty/Release.gpg  无法解析域名“archive.ubuntukylin.com”
+Oct 14 15:01:25 ubuntu-kylin in-target: 
+Oct 14 15:01:25 ubuntu-kylin in-target: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 14 15:01:26 ubuntu-kylin clock-setup: hwclock，来自 util-linux 2.20.1
+Oct 14 15:01:26 ubuntu-kylin clock-setup: 将使用 /dev interface to clock。
+Oct 14 15:01:26 ubuntu-kylin clock-setup: 将假设硬件时钟保持为 UTC 时间。
+Oct 14 15:01:26 ubuntu-kylin clock-setup: 时间从参考时刻起已流逝 0.895369 秒。
+Oct 14 15:01:26 ubuntu-kylin clock-setup: 将延迟更长时间来到达新时间。
+Oct 14 15:01:26 ubuntu-kylin clock-setup: 正在将硬件时钟设置为 15:01:26 = 1969(年)后 1444834886 秒
+Oct 14 15:01:26 ubuntu-kylin clock-setup: ioctl(RTC_SET_TIME) 成功。
+Oct 14 15:01:29 ubuntu-kylin user-setup: pwconv: failed to change the mode of /etc/passwd- to 0600
+Oct 14 15:01:30 ubuntu-kylin user-setup: Shadow passwords are now on.
+Oct 14 15:01:30 ubuntu-kylin user-setup: Adding user `francis' ...
+Oct 14 15:01:30 ubuntu-kylin user-setup: Adding new group `francis' (1000) ...
+Oct 14 15:01:31 ubuntu-kylin user-setup: Adding new user `francis' (1000) with group `francis' ...
+Oct 14 15:01:31 ubuntu-kylin user-setup: Creating home directory `/home/francis' ...
+Oct 14 15:01:31 ubuntu-kylin user-setup: Copying files from `/etc/skel' ...
+Oct 14 15:01:32 ubuntu-kylin user-setup: addgroup: 
+Oct 14 15:01:32 ubuntu-kylin user-setup: The group `lpadmin' already exists as a system group. Exiting.
+Oct 14 15:01:33 ubuntu-kylin user-setup: Adding group `sambashare' (GID 124) ...
+Oct 14 15:01:33 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:33 ubuntu-kylin user-setup: Adding user `francis' to group `adm' ...
+Oct 14 15:01:33 ubuntu-kylin user-setup: Adding user francis to group adm
+Oct 14 15:01:33 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:33 ubuntu-kylin user-setup: Adding user `francis' to group `cdrom' ...
+Oct 14 15:01:33 ubuntu-kylin user-setup: Adding user francis to group cdrom
+Oct 14 15:01:34 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user `francis' to group `dip' ...
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user francis to group dip
+Oct 14 15:01:34 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user `francis' to group `lpadmin' ...
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user francis to group lpadmin
+Oct 14 15:01:34 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user `francis' to group `plugdev' ...
+Oct 14 15:01:34 ubuntu-kylin user-setup: Adding user francis to group plugdev
+Oct 14 15:01:35 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:35 ubuntu-kylin user-setup: Adding user `francis' to group `sambashare' ...
+Oct 14 15:01:35 ubuntu-kylin user-setup: Adding user francis to group sambashare
+Oct 14 15:01:35 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:35 ubuntu-kylin user-setup: adduser: The group `debian-tor' does not exist.
+Oct 14 15:01:35 ubuntu-kylin user-setup: adduser: The group `libvirtd' does not exist.
+Oct 14 15:01:35 ubuntu-kylin user-setup: Adding user `francis' to group `sudo' ...
+Oct 14 15:01:35 ubuntu-kylin user-setup: Adding user francis to group sudo
+Oct 14 15:01:35 ubuntu-kylin user-setup: Done.
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/20xconfig
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/22gnome_panel_data
+Oct 14 15:01:36 ubuntu-kylin ubiquity: /usr/bin/casper-reconfigure: package 'gnome-panel-data' is not installed
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/25modules
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/30accessibility
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/31brltty
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/31ubuntu_driver_packages
+Oct 14 15:01:36 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/32gnome_power_manager
+Oct 14 15:01:49 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.UDisks2' (using servicehelper)
+Oct 14 15:01:49 ubuntu-kylin udisksd[10301]: udisks daemon version 2.1.3 starting
+Oct 14 15:01:50 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct 14 15:01:50 ubuntu-kylin udisksd[10301]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 14 15:01:51 ubuntu-kylin dbus[986]: [system] Activating service name='org.freedesktop.hostname1' (using servicehelper)
+Oct 14 15:01:51 ubuntu-kylin dbus[986]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 14 15:01:52 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/40install_driver_updates
+Oct 14 15:01:52 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/45jackd2
+Oct 14 15:01:52 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/49kubuntu_gnome_icon_cache
+Oct 14 15:01:52 ubuntu-kylin /plugininstall.py: running /usr/lib/ubiquity/target-config/50gkd-caps
+Oct 14 15:01:52 ubuntu-kylin ubiquity: Setting capabilities for gnome-keyring-daemon using Linux Capabilities failed.
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: Verifying downloads ...
+Oct 14 15:01:53 ubuntu-kylin /plugininstall.py: Downloads verified successfully
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: incomplete language support: hyphen-en-us missing
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:01:54 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:01:55 ubuntu-kylin ubiquity: modprobe: invalid option -- 'l'
+Oct 14 15:01:57 ubuntu-kylin check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Oct 14 15:01:57 ubuntu-kylin check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Oct 14 15:01:57 ubuntu-kylin check-missing-firmware: no missing firmware in /dev/.udev/firmware-missing /run/udev/firmware-missing
+Oct 14 15:01:58 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:01:58 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:01:58 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:01:58 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:01:58 ubuntu-kylin /plugininstall.py: log-output -t ubiquity /usr/lib/ubiquity/debian-installer-utils/register-module.post-base-installer
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /tmp/.X11-unix /target/tmp/.X11-unix
+Oct 14 15:02:01 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target dpkg-divert --package ubiquity --rename --quiet --add /usr/sbin/update-initramfs
+Oct 14 15:02:04 ubuntu-kylin ubiquity: Running depmod.
+Oct 14 15:02:04 ubuntu-kylin ubiquity: Failed to symbolic-link boot/initrd.img-3.13.0-32-generic to initrd.img:文件已存在 at /var/lib/dpkg/info/linux-image-3.13.0-32-generic.postinst line 629.
+Oct 14 15:02:08 ubuntu-kylin ubiquity: 
+Oct 14 15:02:08 ubuntu-kylin ubiquity: Creating config file /etc/papersize with new version
+Oct 14 15:02:10 ubuntu-kylin ubiquity: Processing triggers for libc-bin (2.19-0ubuntu6) ...
+Oct 14 15:02:32 ubuntu-kylin ubiquity: hostname: Name or service not known
+Oct 14 15:02:32 ubuntu-kylin ubiquity: make-ssl-cert: Could not get FQDN, using "ubuntu-kylin".
+Oct 14 15:02:32 ubuntu-kylin ubiquity: make-ssl-cert: You may want to fix your /etc/hosts and/or DNS setup and run
+Oct 14 15:02:32 ubuntu-kylin ubiquity: make-ssl-cert: make-ssl-cert generate-default-snakeoil --force-overwrite
+Oct 14 15:02:32 ubuntu-kylin ubiquity: make-ssl-cert: again.
+Oct 14 15:02:35 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target dpkg-divert --package ubiquity --rename --quiet --remove /usr/sbin/update-initramfs
+Oct 14 15:02:35 ubuntu-kylin ubiquity: update-initramfs: Generating /boot/initrd.img-3.13.0-32-generic
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target update-initramfs -c -k 3.13.0-32-generic
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/tmp/.X11-unix
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:03:12 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: Verifying downloads ...
+Oct 14 15:03:13 ubuntu-kylin /plugininstall.py: Downloads verified successfully
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /proc /target/proc
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /sys /target/sys
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:03:14 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:03:14 ubuntu-kylin grub-installer: info: architecture: i386/generic
+Oct 14 15:03:15 ubuntu-kylin ubiquity: File descriptor 3 (pipe:[57052]) leaked on lvdisplay invocation.
+Oct 14 15:03:15 ubuntu-kylin ubiquity:  Parent PID 19122: /bin/sh
+Oct 14 15:03:15 ubuntu-kylin ubiquity:   
+Oct 14 15:03:15 ubuntu-kylin ubiquity: Volume group "sda" not found
+Oct 14 15:03:15 ubuntu-kylin ubiquity: 
+Oct 14 15:03:15 ubuntu-kylin ubiquity:   
+Oct 14 15:03:15 ubuntu-kylin ubiquity: Skipping volume group sda
+Oct 14 15:03:15 ubuntu-kylin ubiquity: 
+Oct 14 15:03:15 ubuntu-kylin grub-installer: info: Identified partition label for /dev/sda1: msdos
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-legacy which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64-bin which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64 which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64-signed which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32-bin which isn't installed
+Oct 14 15:03:18 ubuntu-kylin grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32 which isn't installed
+Oct 14 15:03:19 ubuntu-kylin os-prober: File descriptor 3 (pipe:[57052]) leaked on lvs invocation.
+Oct 14 15:03:19 ubuntu-kylin os-prober:  Parent PID 19249: log-output
+Oct 14 15:03:19 ubuntu-kylin os-prober:   
+Oct 14 15:03:19 ubuntu-kylin os-prober: No volume groups found
+Oct 14 15:03:19 ubuntu-kylin os-prober: 
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 14 15:03:19 ubuntu-kylin 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: /dev/sda5: is active swap
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 10freedos: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 10qnx: debug: /dev/sdb4 is not a QNX4 partition: exiting
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin macosx-prober: debug: /dev/sdb4 is not an HFS+ partition: exiting
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 20microsoft: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 30utility: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin 83haiku: debug: /dev/sdb4 is not a BeFS partition: exiting
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb4
+Oct 14 15:03:19 ubuntu-kylin grub-installer: info: Installing grub on '/dev/sda'
+Oct 14 15:03:19 ubuntu-kylin grub-installer: info: grub-install does not support --no-floppy
+Oct 14 15:03:19 ubuntu-kylin grub-installer: info: Running chroot /target grub-install  --force "/dev/sda"
+Oct 14 15:03:20 ubuntu-kylin grub-installer: Installing for i386-pc platform.
+Oct 14 15:03:38 ubuntu-kylin grub-installer: Installation finished. No error reported.
+Oct 14 15:03:38 ubuntu-kylin grub-installer: info: grub-install ran successfully
+Oct 14 15:03:39 ubuntu-kylin ubiquity: Setting partition 1 of /dev/sda to active... done.
+Oct 14 15:03:44 ubuntu-kylin os-prober: File descriptor 3 (pipe:[57052]) leaked on lvs invocation.
+Oct 14 15:03:44 ubuntu-kylin os-prober:  Parent PID 20139: log-output
+Oct 14 15:03:44 ubuntu-kylin os-prober:   
+Oct 14 15:03:44 ubuntu-kylin os-prober: No volume groups found
+Oct 14 15:03:44 ubuntu-kylin os-prober: 
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Oct 14 15:03:44 ubuntu-kylin 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: /dev/sda5: is active swap
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 05efi: debug: Not on UEFI platform
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 10freedos: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 10qnx: debug: /dev/sdb4 is not a QNX4 partition: exiting
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin macosx-prober: debug: /dev/sdb4 is not an HFS+ partition: exiting
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 20microsoft: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 30utility: debug: /dev/sdb4 is a FAT32 partition
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin 83haiku: debug: /dev/sdb4 is not a BeFS partition: exiting
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb4
+Oct 14 15:03:44 ubuntu-kylin os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb4
+Oct 14 15:03:47 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount -f /target/proc
+Oct 14 15:03:47 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount -f /target/sys
+Oct 14 15:03:47 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount -f /target/dev
+Oct 14 15:03:47 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount -f /target/run
+Oct 14 15:03:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:03:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:03:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:03:48 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:03:50 ubuntu-kylin ubiquity: (Reading database ... 148377 files and directories currently installed.)
+Oct 14 15:03:50 ubuntu-kylin ubiquity: Removing btrfs-tools (3.12-1) ...
+Oct 14 15:03:51 ubuntu-kylin ubiquity: update-initramfs: deferring update (trigger activated)
+Oct 14 15:03:51 ubuntu-kylin ubiquity: Purging configuration files for btrfs-tools (3.12-1) ...
+Oct 14 15:03:52 ubuntu-kylin ubiquity: Removing lupin-casper (0.55) ...
+Oct 14 15:03:53 ubuntu-kylin ubiquity: Removing casper (1.340) ...
+Oct 14 15:03:54 ubuntu-kylin ubiquity: Purging configuration files for casper (1.340) ...
+Oct 14 15:03:55 ubuntu-kylin ubiquity: Removing cifs-utils (2:6.0-1ubuntu2) ...
+Oct 14 15:03:55 ubuntu-kylin ubiquity: Purging configuration files for cifs-utils (2:6.0-1ubuntu2) ...
+Oct 14 15:03:56 ubuntu-kylin ubiquity: Removing dmraid (1.0.0.rc16-4.2ubuntu3) ...
+Oct 14 15:03:56 ubuntu-kylin ubiquity: update-initramfs: deferring update (trigger activated)
+Oct 14 15:03:57 ubuntu-kylin ubiquity: Purging configuration files for dmraid (1.0.0.rc16-4.2ubuntu3) ...
+Oct 14 15:03:57 ubuntu-kylin ubiquity: update-initramfs: deferring update (trigger activated)
+Oct 14 15:03:58 ubuntu-kylin ubiquity: Removing gparted (0.18.0-1) ...
+Oct 14 15:03:59 ubuntu-kylin ubiquity: Purging configuration files for gparted (0.18.0-1) ...
+Oct 14 15:04:00 ubuntu-kylin ubiquity: Removing jfsutils (1.1.15-2.1) ...
+Oct 14 15:04:01 ubuntu-kylin ubiquity: Removing kpartx-boot (0.4.9-3ubuntu7) ...
+Oct 14 15:04:01 ubuntu-kylin ubiquity: update-initramfs: deferring update (trigger activated)
+Oct 14 15:04:01 ubuntu-kylin ubiquity: Purging configuration files for kpartx-boot (0.4.9-3ubuntu7) ...
+Oct 14 15:04:02 ubuntu-kylin ubiquity: Removing kpartx (0.4.9-3ubuntu7) ...
+Oct 14 15:04:03 ubuntu-kylin ubiquity: Removing libdmraid1.0.0.rc16 (1.0.0.rc16-4.2ubuntu3) ...
+Oct 14 15:04:03 ubuntu-kylin ubiquity: Purging configuration files for libdmraid1.0.0.rc16 (1.0.0.rc16-4.2ubuntu3) ...
+Oct 14 15:04:04 ubuntu-kylin ubiquity: Removing localechooser-data (2.49ubuntu5) ...
+Oct 14 15:04:05 ubuntu-kylin ubiquity: Removing lvm2 (2.02.98-6ubuntu2) ...
+Oct 14 15:04:06 ubuntu-kylin ubiquity: Purging configuration files for lvm2 (2.02.98-6ubuntu2) ...
+Oct 14 15:04:07 ubuntu-kylin ubiquity: Removing reiserfsprogs (1:3.6.24-1) ...
+Oct 14 15:04:08 ubuntu-kylin ubiquity: Removing ubiquity-slideshow-ubuntu (83) ...
+Oct 14 15:04:09 ubuntu-kylin ubiquity: Removing ubuntu-kylin-docs (14.04.3) ...
+Oct 14 15:04:10 ubuntu-kylin ubiquity: Removing user-setup (1.48ubuntu2) ...
+Oct 14 15:04:10 ubuntu-kylin ubiquity: Purging configuration files for user-setup (1.48ubuntu2) ...
+Oct 14 15:04:12 ubuntu-kylin ubiquity: Removing watershed (7) ...
+Oct 14 15:04:13 ubuntu-kylin ubiquity: Removing xfsprogs (3.1.9ubuntu2) ...
+Oct 14 15:04:14 ubuntu-kylin ubiquity: Purging configuration files for xfsprogs (3.1.9ubuntu2) ...
+Oct 14 15:04:23 ubuntu-kylin ubiquity: Removing ubiquity-frontend-gtk (2.18.8) ...
+Oct 14 15:04:25 ubuntu-kylin ubiquity: Purging configuration files for ubiquity-frontend-gtk (2.18.8) ...
+Oct 14 15:04:26 ubuntu-kylin ubiquity: Removing gir1.2-timezonemap-1.0 (0.4.1) ...
+Oct 14 15:04:27 ubuntu-kylin ubiquity: Removing gir1.2-json-1.0 (0.16.2-1ubuntu1) ...
+Oct 14 15:04:28 ubuntu-kylin ubiquity: Removing gir1.2-xkl-1.0 (5.4-0ubuntu1) ...
+Oct 14 15:04:29 ubuntu-kylin ubiquity: Removing metacity (1:2.34.13-0ubuntu4) ...
+Oct 14 15:04:30 ubuntu-kylin ubiquity: Removing ubiquity (2.18.8) ...
+Oct 14 15:04:32 ubuntu-kylin ubiquity: Purging configuration files for ubiquity (2.18.8) ...
+Oct 14 15:04:34 ubuntu-kylin ubiquity: Removing apt-clone (0.3.1~ubuntu11) ...
+Oct 14 15:04:35 ubuntu-kylin ubiquity: Removing archdetect-deb (1.95ubuntu2.1) ...
+Oct 14 15:04:36 ubuntu-kylin ubiquity: Removing cryptsetup (2:1.6.1-1ubuntu1) ...
+Oct 14 15:04:37 ubuntu-kylin ubiquity: update-initramfs: deferring update (trigger activated)
+Oct 14 15:04:37 ubuntu-kylin ubiquity: Purging configuration files for cryptsetup (2:1.6.1-1ubuntu1) ...
+Oct 14 15:04:38 ubuntu-kylin ubiquity: Removing cryptsetup-bin (2:1.6.1-1ubuntu1) ...
+Oct 14 15:04:39 ubuntu-kylin ubiquity: Removing dpkg-repack (1.37) ...
+Oct 14 15:04:40 ubuntu-kylin ubiquity: Removing ecryptfs-utils (104-0ubuntu1) ...
+Oct 14 15:04:42 ubuntu-kylin ubiquity: Removing keyutils (1.5.6-1) ...
+Oct 14 15:04:42 ubuntu-kylin ubiquity: Purging configuration files for keyutils (1.5.6-1) ...
+Oct 14 15:04:43 ubuntu-kylin ubiquity: Removing libcryptsetup4 (2:1.6.1-1ubuntu1) ...
+Oct 14 15:04:44 ubuntu-kylin ubiquity: Purging configuration files for libcryptsetup4 (2:1.6.1-1ubuntu1) ...
+Oct 14 15:04:44 ubuntu-kylin ubiquity: Removing libecryptfs0 (104-0ubuntu1) ...
+Oct 14 15:04:45 ubuntu-kylin ubiquity: Purging configuration files for libecryptfs0 (104-0ubuntu1) ...
+Oct 14 15:04:45 ubuntu-kylin ubiquity: Removing python3-icu (1.5-2ubuntu4) ...
+Oct 14 15:04:47 ubuntu-kylin ubiquity: Removing python3-pam (0.4.2-13.1ubuntu3) ...
+Oct 14 15:04:47 ubuntu-kylin ubiquity: Removing rdate (1:1.2-5) ...
+Oct 14 15:04:48 ubuntu-kylin ubiquity: Removing ubiquity-casper (1.340) ...
+Oct 14 15:04:49 ubuntu-kylin ubiquity: Removing ubiquity-ubuntu-artwork (2.18.8) ...
+Oct 14 15:04:50 ubuntu-kylin ubiquity: Processing triggers for man-db (2.6.7.1-1) ...
+Oct 14 15:04:55 ubuntu-kylin ubiquity: Processing triggers for initramfs-tools (0.103ubuntu4.2) ...
+Oct 14 15:04:55 ubuntu-kylin ubiquity: update-initramfs: Generating /boot/initrd.img-3.13.0-32-generic
+Oct 14 15:05:10 ubuntu-kylin ubiquity: Processing triggers for libc-bin (2.19-0ubuntu6) ...
+Oct 14 15:05:10 ubuntu-kylin ubiquity: Processing triggers for hicolor-icon-theme (0.13-1) ...
+Oct 14 15:05:15 ubuntu-kylin ubiquity: Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
+Oct 14 15:05:15 ubuntu-kylin ubiquity: Processing triggers for desktop-file-utils (0.22-1ubuntu1) ...
+Oct 14 15:05:15 ubuntu-kylin ubiquity: Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
+Oct 14 15:05:16 ubuntu-kylin ubiquity: Rebuilding /usr/share/applications/bamf-2.index...
+Oct 14 15:05:16 ubuntu-kylin ubiquity: Processing triggers for mime-support (3.54ubuntu1) ...
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Oct 14 15:05:17 ubuntu-kylin /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/run
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity umount /target/dev
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Oct 14 15:05:18 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target mount -t securityfs securityfs /sys/kernel/security
+Oct 14 15:05:18 ubuntu-kylin ubiquity:  * Recaching AppArmor profiles
+Oct 14 15:05:26 ubuntu-kylin ubiquity: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Oct 14 15:05:29 ubuntu-kylin ubiquity: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 14 15:05:29 ubuntu-kylin ubiquity:    ...done.
+Oct 14 15:05:29 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target /etc/init.d/apparmor recache
+Oct 14 15:05:29 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Oct 14 15:05:29 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys/kernel/security
+Oct 14 15:05:29 ubuntu-kylin /plugininstall.py: log-output -t ubiquity chroot /target umount /sys

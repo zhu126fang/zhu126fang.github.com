@@ -1,0 +1,34 @@
+Index root attribute missing in directory inode 5: No such file or directory
+Failed to mount '/dev/sda1': Input/output error
+NTFS is either inconsistent, or there is a hardware fault, or it's a
+SoftRAID/FakeRAID hardware. In the first case run chkdsk /f on Windows
+then reboot into Windows twice. The usage of the /f parameter is very
+important! If the device is a SoftRAID/FakeRAID then first activate
+it and mount a different device under the /dev/mapper/ directory, (e.g.
+/dev/mapper/nvidia_eahaabcc1). Please see the 'dmraid' documentation
+for more details.
+mount: mounting /dev/sda1 on /cdrom failed: No such device
+stdin: Not a typewriter
+The disk contains an unclean file system (0, 0).
+The file system wasn't safely closed on Windows. Fixing.
+The disk contains an unclean file system (0, 0).
+The file system wasn't safely closed on Windows. Fixing.
+Generating locales...
+  zh_CN.UTF-8... done
+Generation complete.
+grep: /root/cdrom/preseed/ubuntu.seed: No such file or directory
+pwconv: failed to change the mode of /etc/passwd- to 0600
+Using CD-ROM mount point /cdrom/
+Identifying... [953f70023983715e82b56a49398c5a0e-2]
+Scanning disc for index files...
+Found 4 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+Found label 'Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)'
+This disc is called: 
+'Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)'
+Copying package lists...gpgv: Signature made Tue Jul 22 23:45:09 2014 UTC using DSA key ID FBB75451
+gpgv: Good signature from "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+Reading Package Indexes... 0%Reading Package Indexes... Done
+Writing new source list
+Source list entries for this disc are:
+deb cdrom:[Ubuntu-Kylin 14.04.1 LTS _Trusty Tahr_ - Release i386 (20140722.1)]/ trusty main multiverse restricted universe
+Repeat this process for the rest of the CDs in your set.

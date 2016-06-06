@@ -1,0 +1,82 @@
+Ubiquity 2.18.8
+
+(ubiquity:2101): Gtk-CRITICAL **: gtk_radio_button_set_group: assertion '!g_slist_find (group, radio_button)' failed
+
+(ubiquity:2101): Gtk-CRITICAL **: gtk_radio_button_set_group: assertion '!g_slist_find (group, radio_button)' failed
+
+(ubiquity:2101): Gtk-WARNING **: Failed to set text from markup due to error parsing markup: 第 1 行出错：实体没有以分号结束。很可能您使用了 & 字符而又不是一个实体 - 将这个 & 变为 &amp;
+update_release_notes_label()
+
+(ubiquity:2101): Gtk-WARNING **: Failed to set text from markup due to error parsing markup: 第 1 行出错：实体没有以分号结束。很可能您使用了 & 字符而又不是一个实体 - 将这个 & 变为 &amp;
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 3241 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 3288 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:138: Warning: Source ID 7708 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:138: Warning: Source ID 8310 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:72: Warning: Source ID 7705 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_layout_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:74: Warning: Source ID 8378 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 7436 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 7468 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 10562 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 10617 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 14477 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 14515 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 18837 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 18863 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 19545 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 19574 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 19859 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 19898 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 20151 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 20408 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 20945 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 20984 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 21260 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 21528 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 22804 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 22856 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 23098 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 23356 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 41075 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 41127 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 41528 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 41818 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 43276 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 43315 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:18: Warning: Source ID 43896 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:131: Warning: Source ID 44168 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)

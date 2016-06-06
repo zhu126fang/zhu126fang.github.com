@@ -1,0 +1,41 @@
+log_file: /var/log/gpu-manager.log
+last_boot_file: /var/lib/ubuntu-drivers-common/last_gfx_boot
+new_boot_file: /var/lib/ubuntu-drivers-common/last_gfx_boot
+Skipping "/dev/dri/card0", driven by "radeon"
+Does it require offloading? no
+grep dmesg status 256
+dmesg status 256 == 0? No
+grep dmesg status 256
+dmesg status 256 == 0? No
+Is nvidia loaded? no
+Was nvidia unloaded? no
+Is fglrx loaded? no
+Was fglrx unloaded? no
+Is intel loaded? no
+Is radeon loaded? yes
+Is nouveau loaded? no
+Vendor/Device Id: 1002:7149
+BusID "PCI:1@0:0:0"
+Is boot vga? yes
+last cards number = 1
+Has amd? yes
+Has intel? no
+Has nvidia? no
+How many cards? 1
+Has the system changed? No
+main_arch_path i386-linux-gnu, other_arch_path x86_64-linux-gnu
+Current alternative: /usr/lib/i386-linux-gnu/mesa/ld.so.conf
+Is nvidia enabled? no
+Is fglrx enabled? no
+Is mesa enabled? yes
+Is pxpress enabled? no
+Is prime enabled? no
+Is nvidia available? no
+Is fglrx available? no
+Is mesa available? yes
+Is pxpress available? no
+Is prime available? no
+Single card detected
+Kernel Module is not loaded
+Nothing to do
+No change - nothing to do

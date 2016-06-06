@@ -1,0 +1,217 @@
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+
+** (at-spi2-registryd:1255): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1255): WARNING **: Unable to register client with session manager
+[+0.00s] DEBUG: unity-greeter.vala:496: Starting unity-greeter 14.04.10 UID=112 LANG=zh_CN.UTF-8
+[+0.00s] DEBUG: unity-greeter.vala:499: Setting cursor
+[+0.04s] DEBUG: unity-greeter.vala:513: Loading command line options
+[+0.04s] DEBUG: unity-greeter.vala:541: Setting GTK+ settings
+[+0.33s] DEBUG: unity-greeter.vala:564: Creating Unity Greeter
+[+0.33s] DEBUG: unity-greeter.vala:57: Creating background surface
+[+0.37s] DEBUG: Connecting to display manager...
+[+0.37s] DEBUG: Wrote 18 bytes to daemon
+[+0.37s] DEBUG: Read 8 bytes from daemon
+[+0.37s] DEBUG: Read 150 bytes from daemon
+[+0.37s] DEBUG: Connected version=1.10.1 default-session=ubuntu show-manual-login=false hide-users=false has-guest-account=true show-remote-login=true
+[+0.87s] DEBUG: menubar.vala:335: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+1.35s] DEBUG: menubar.vala:367: LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:
+[+1.40s] DEBUG: Loading users from org.freedesktop.Accounts
+[+1.40s] DEBUG: User /org/freedesktop/Accounts/User1000 added
+[+1.43s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+1.43s] DEBUG: Loading sessions from org.freedesktop.DisplayManager
+[+1.44s] DEBUG: user-list.vala:1012: Adding guest account entry
+[+1.96s] DEBUG: Loaded session /usr/share/xsessions/ubuntu.desktop (Ubuntu, This session logs you into Ubuntu)
+[+1.96s] DEBUG: Starting authentication for user francis...
+[+1.96s] DEBUG: Wrote 23 bytes to daemon
+[+1.98s] DEBUG: main-window.vala:185: Screen is 1280x800 pixels
+[+1.98s] DEBUG: main-window.vala:193: Monitor 0 is 1280x800 pixels at 0,0
+[+1.98s] DEBUG: unity-greeter.vala:567: Showing greeter
+[+1.98s] DEBUG: unity-greeter.vala:252: Showing main window
+[+2.00s] DEBUG: background.vala:483: Regenerating backgrounds
+[+2.00s] DEBUG: background.vala:68: Making background /usr/share/backgrounds/warty-final-ubuntukylin.jpg at 1280x800
+[+2.02s] DEBUG: unity-greeter.vala:610: Starting main loop
+[+2.02s] DEBUG: Read 8 bytes from daemon
+[+2.02s] DEBUG: Read 37 bytes from daemon
+[+2.02s] DEBUG: Prompt user with 1 message(s)
+[+2.46s] DEBUG: background.vala:68: Making background /usr/share/backgrounds/autumn.jpg at 1280x800
+[+2.49s] DEBUG: settings-daemon.vala:75: Acquired org.gnome.SessionManager
+[+2.49s] DEBUG: settings-daemon.vala:102: Acquired org.gnome.ScreenSaver
+[+2.49s] DEBUG: settings-daemon.vala:159: All bus names acquired, starting unity-settings-daemon
+[+2.54s] DEBUG: Connected to Application Indicator Service.
+[+3.24s] DEBUG: menubar.vala:537: Adding indicator object 0x833d3ec at position 0
+[+3.41s] DEBUG: Request current apps
+[+3.42s] DEBUG: unity-greeter.vala:235: starting system-ready sound
+[+4.13s] DEBUG: background.vala:121: Render of background /usr/share/backgrounds/warty-final-ubuntukylin.jpg complete
+[+4.15s] DEBUG: background.vala:121: Render of background /usr/share/backgrounds/autumn.jpg complete
+[+4.27s] DEBUG: Building new application entry: :1.16  with icon: nm-no-connection at position 0
+
+** (unity-settings-daemon:1347): WARNING **: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: 无此方法：RegisterClient
+[+4.31s] DEBUG: menubar.vala:537: Adding indicator object 0x84c6640 at position 1
+[+4.35s] DEBUG: menubar.vala:537: Adding indicator object 0x833d56c at position 1
+[+4.55s] DEBUG: menubar.vala:537: Adding indicator object 0x833d6ec at position 2
+[+4.64s] DEBUG: menubar.vala:537: Adding indicator object 0x833d26c at position 3
+[+4.98s] DEBUG: menubar.vala:537: Adding indicator object 0x834e8b4 at position 2
+[+52.93s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+53.04s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+298.19s] DEBUG: settings-daemon.vala:209: Screensaver activated
+[+4801.10s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+4801.27s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+4815.12s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+4815.29s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+5025.80s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+5025.97s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+5117.39s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+5117.56s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+8837.91s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+8838.08s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+13811.52s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+13811.69s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+13824.76s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+13824.93s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+14113.90s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+14114.06s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+14144.32s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+14144.49s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+14366.13s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+14366.30s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+14946.45s] DEBUG: User /org/freedesktop/Accounts/User1000 changed
+[+14946.62s] DEBUG: user-list.vala:1030: Adding/updating user francis (Francis)
+[+61382.63s] DEBUG: Generating properties error for: 20124
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20125
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20126
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20127
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20128
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20129
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20130
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20131
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61382.63s] DEBUG: Generating properties error for: 20132
+[+61382.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61383.84s] DEBUG: settings-daemon.vala:211: Screensaver disabled
+[+61387.51s] DEBUG: menubar.vala:545: Removing indicator object 0x833d6ec
+[+61388.43s] DEBUG: menubar.vala:537: Adding indicator object 0x833d6ec at position 3
+[+61388.43s] CRITICAL: gtk_window_set_attached_to: assertion 'GTK_IS_WINDOW (window)' failed
+[+61388.43s] CRITICAL: gtk_window_set_screen: assertion 'GTK_IS_WINDOW (window)' failed
+[+61389.63s] DEBUG: Generating properties error for: 20264
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20265
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20266
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20267
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20268
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20269
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20270
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20271
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20272
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20273
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20274
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20275
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20276
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20292
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20293
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20295
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20296
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20297
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20298
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20299
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20300
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20301
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20302
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20277
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20278
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20279
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20280
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20281
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20282
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20283
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20284
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20285
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20286
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20287
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20288
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20289
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20290
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20291
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61389.63s] DEBUG: Generating properties error for: 20294
+[+61389.63s] DEBUG: Error getting properties on a new menuitem: Error getting properties for ID
+[+61411.75s] DEBUG: Providing response to display manager
+[+61411.75s] DEBUG: Wrote 22 bytes to daemon
+[+61411.96s] DEBUG: Read 8 bytes from daemon
+[+61411.96s] DEBUG: Read 19 bytes from daemon
+[+61411.96s] DEBUG: Authentication complete for user francis with return code 0
+[+61411.97s] DEBUG: Starting session ubuntu
+[+61411.97s] DEBUG: Wrote 18 bytes to daemon
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+[+61411.99s] DEBUG: Read 8 bytes from daemon
+[+61411.99s] DEBUG: Read 4 bytes from daemon
+[+61412.00s] DEBUG: unity-greeter.vala:605: Got a SIGTERM
+[+61412.00s] DEBUG: settings-daemon.vala:78: Failed to acquire name org.gnome.SessionManager
+[+61412.00s] DEBUG: settings-daemon.vala:105: Failed to acquire name org.gnome.ScreenSaver
+[+61412.00s] DEBUG: unity-greeter.vala:135: Failed to acquire name com.canonical.Unity
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+** (unity-settings-daemon:1347): WARNING **: Name taken or bus went away - shutting down
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+nm-applet-Message: PID 1297 (we are 1297) sent signal 15, shutting down...
+
+(nm-applet:1297): libappindicator-WARNING **: Unable to send signal for NewStatus: 连接已关闭
+[+61412.05s] DEBUG: unity-greeter.vala:613: Cleaning up
+[+61412.05s] DEBUG: unity-greeter.vala:621: Upstart exited with return value 0
+[+61412.05s] DEBUG: unity-greeter.vala:633: AT-SPI exited with return value 0
+[+61412.05s] DEBUG: unity-greeter.vala:639: Exiting
+init: indicator-bluetooth main 进程 (1302)已经被TERM 信号杀死
+init: indicator-power main 进程 (1303)已经被TERM 信号杀死
+init: indicator-datetime main 进程 (1304)已经被TERM 信号杀死
+init: indicator-session main 进程 (1307)已经被TERM 信号杀死
+init: indicator-application main 进程 (1310)已经被TERM 信号杀死
+
+(unity-settings-daemon:1347): dconf-WARNING **: failed to commit changes to dconf: 连接已关闭
+g_dbus_connection_real_closed: Remote peer vanished with error: 接受信息出错：连接被对端重置 (g-io-error-quark, 0). Exiting.
+
+(nm-applet:1297): GLib-CRITICAL **: Source ID 212 was not found when attempting to remove it

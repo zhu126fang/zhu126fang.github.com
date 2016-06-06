@@ -1,0 +1,131 @@
+Nov  1 07:49:07 Aspire-5100 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 07:49:08 Aspire-5100 pkexec[26008]: francis: Executing command [USER=root] [TTY=unknown] [CWD=/home/francis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 08:17:01 Aspire-5100 CRON[26049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 08:17:01 Aspire-5100 CRON[26049]: pam_unix(cron:session): session closed for user root
+Nov  1 09:17:01 Aspire-5100 CRON[26080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 09:17:01 Aspire-5100 CRON[26080]: pam_unix(cron:session): session closed for user root
+Nov  1 10:17:01 Aspire-5100 CRON[26113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 10:17:01 Aspire-5100 CRON[26113]: pam_unix(cron:session): session closed for user root
+Nov  1 11:17:01 Aspire-5100 CRON[26146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:17:01 Aspire-5100 CRON[26146]: pam_unix(cron:session): session closed for user root
+Nov  1 12:17:01 Aspire-5100 CRON[26175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 12:17:01 Aspire-5100 CRON[26175]: pam_unix(cron:session): session closed for user root
+Nov  1 13:17:01 Aspire-5100 CRON[26205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 13:17:02 Aspire-5100 CRON[26205]: pam_unix(cron:session): session closed for user root
+Nov  1 14:17:01 Aspire-5100 CRON[26239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:17:01 Aspire-5100 CRON[26239]: pam_unix(cron:session): session closed for user root
+Nov  1 15:17:01 Aspire-5100 CRON[26279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:17:01 Aspire-5100 CRON[26279]: pam_unix(cron:session): session closed for user root
+Nov  1 16:17:01 Aspire-5100 CRON[26312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:17:01 Aspire-5100 CRON[26312]: pam_unix(cron:session): session closed for user root
+Nov  1 17:17:01 Aspire-5100 CRON[26346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:17:01 Aspire-5100 CRON[26346]: pam_unix(cron:session): session closed for user root
+Nov  1 18:17:01 Aspire-5100 CRON[26378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 18:17:01 Aspire-5100 CRON[26378]: pam_unix(cron:session): session closed for user root
+Nov  1 19:17:01 Aspire-5100 CRON[26411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 19:17:01 Aspire-5100 CRON[26411]: pam_unix(cron:session): session closed for user root
+Nov  1 20:17:01 Aspire-5100 CRON[26443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 20:17:01 Aspire-5100 CRON[26443]: pam_unix(cron:session): session closed for user root
+Nov  1 21:17:01 Aspire-5100 CRON[26474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 21:17:01 Aspire-5100 CRON[26474]: pam_unix(cron:session): session closed for user root
+Nov  1 22:17:01 Aspire-5100 CRON[26507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 22:17:01 Aspire-5100 CRON[26507]: pam_unix(cron:session): session closed for user root
+Nov  1 23:17:01 Aspire-5100 CRON[26538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 23:17:01 Aspire-5100 CRON[26538]: pam_unix(cron:session): session closed for user root
+Nov  2 00:17:01 Aspire-5100 CRON[26574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 00:17:01 Aspire-5100 CRON[26574]: pam_unix(cron:session): session closed for user root
+Nov  2 01:17:01 Aspire-5100 CRON[26606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 01:17:01 Aspire-5100 CRON[26606]: pam_unix(cron:session): session closed for user root
+Nov  2 02:17:01 Aspire-5100 CRON[26639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 02:17:01 Aspire-5100 CRON[26639]: pam_unix(cron:session): session closed for user root
+Nov  2 03:17:01 Aspire-5100 CRON[26669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 03:17:01 Aspire-5100 CRON[26669]: pam_unix(cron:session): session closed for user root
+Nov  2 04:17:01 Aspire-5100 CRON[26699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 04:17:01 Aspire-5100 CRON[26699]: pam_unix(cron:session): session closed for user root
+Nov  2 05:17:01 Aspire-5100 CRON[26730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 05:17:01 Aspire-5100 CRON[26730]: pam_unix(cron:session): session closed for user root
+Nov  2 06:17:01 Aspire-5100 CRON[26764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 06:17:01 Aspire-5100 CRON[26764]: pam_unix(cron:session): session closed for user root
+Nov  2 06:25:01 Aspire-5100 CRON[26772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 06:25:01 Aspire-5100 CRON[26772]: pam_unix(cron:session): session closed for user root
+Nov  2 07:17:01 Aspire-5100 CRON[26797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 07:17:01 Aspire-5100 CRON[26797]: pam_unix(cron:session): session closed for user root
+Nov  2 07:30:01 Aspire-5100 CRON[26806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 07:30:02 Aspire-5100 CRON[26806]: pam_unix(cron:session): session closed for user root
+Nov  2 08:13:08 Aspire-5100 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  2 08:13:08 Aspire-5100 pkexec[27111]: francis: Executing command [USER=root] [TTY=unknown] [CWD=/home/francis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  2 08:17:01 Aspire-5100 CRON[27117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 08:17:01 Aspire-5100 CRON[27117]: pam_unix(cron:session): session closed for user root
+Nov  2 09:17:01 Aspire-5100 CRON[27147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 09:17:01 Aspire-5100 CRON[27147]: pam_unix(cron:session): session closed for user root
+Nov  2 10:17:01 Aspire-5100 CRON[27180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 10:17:01 Aspire-5100 CRON[27180]: pam_unix(cron:session): session closed for user root
+Nov  2 11:17:01 Aspire-5100 CRON[27213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 11:17:01 Aspire-5100 CRON[27213]: pam_unix(cron:session): session closed for user root
+Nov  2 12:17:01 Aspire-5100 CRON[27246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 12:17:01 Aspire-5100 CRON[27246]: pam_unix(cron:session): session closed for user root
+Nov  2 13:17:01 Aspire-5100 CRON[27277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 13:17:01 Aspire-5100 CRON[27277]: pam_unix(cron:session): session closed for user root
+Nov  2 14:17:01 Aspire-5100 CRON[27306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 14:17:01 Aspire-5100 CRON[27306]: pam_unix(cron:session): session closed for user root
+Nov  2 15:17:01 Aspire-5100 CRON[27348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 15:17:01 Aspire-5100 CRON[27348]: pam_unix(cron:session): session closed for user root
+Nov  2 16:17:01 Aspire-5100 CRON[27379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 16:17:01 Aspire-5100 CRON[27379]: pam_unix(cron:session): session closed for user root
+Nov  2 17:17:01 Aspire-5100 CRON[27413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 17:17:01 Aspire-5100 CRON[27413]: pam_unix(cron:session): session closed for user root
+Nov  2 18:17:01 Aspire-5100 CRON[27445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 18:17:01 Aspire-5100 CRON[27445]: pam_unix(cron:session): session closed for user root
+Nov  2 19:17:01 Aspire-5100 CRON[27478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 19:17:01 Aspire-5100 CRON[27478]: pam_unix(cron:session): session closed for user root
+Nov  2 20:17:01 Aspire-5100 CRON[27509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 20:17:01 Aspire-5100 CRON[27509]: pam_unix(cron:session): session closed for user root
+Nov  2 21:17:01 Aspire-5100 CRON[27539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 21:17:01 Aspire-5100 CRON[27539]: pam_unix(cron:session): session closed for user root
+Nov  2 22:17:01 Aspire-5100 CRON[27570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 22:17:01 Aspire-5100 CRON[27570]: pam_unix(cron:session): session closed for user root
+Nov  2 23:17:01 Aspire-5100 CRON[27602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 23:17:01 Aspire-5100 CRON[27602]: pam_unix(cron:session): session closed for user root
+Nov  3 00:17:01 Aspire-5100 CRON[27637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 00:17:01 Aspire-5100 CRON[27637]: pam_unix(cron:session): session closed for user root
+Nov  3 01:17:01 Aspire-5100 CRON[27668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 01:17:01 Aspire-5100 CRON[27668]: pam_unix(cron:session): session closed for user root
+Nov  3 02:17:01 Aspire-5100 CRON[27701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 02:17:01 Aspire-5100 CRON[27701]: pam_unix(cron:session): session closed for user root
+Nov  3 03:17:01 Aspire-5100 CRON[27734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 03:17:01 Aspire-5100 CRON[27734]: pam_unix(cron:session): session closed for user root
+Nov  3 04:17:01 Aspire-5100 CRON[27766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 04:17:01 Aspire-5100 CRON[27766]: pam_unix(cron:session): session closed for user root
+Nov  3 05:17:01 Aspire-5100 CRON[27798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 05:17:01 Aspire-5100 CRON[27798]: pam_unix(cron:session): session closed for user root
+Nov  3 06:17:01 Aspire-5100 CRON[27827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 06:17:01 Aspire-5100 CRON[27827]: pam_unix(cron:session): session closed for user root
+Nov  3 06:25:01 Aspire-5100 CRON[27835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 06:25:01 Aspire-5100 CRON[27835]: pam_unix(cron:session): session closed for user root
+Nov  3 07:17:01 Aspire-5100 CRON[27859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 07:17:01 Aspire-5100 CRON[27859]: pam_unix(cron:session): session closed for user root
+Nov  3 07:30:01 Aspire-5100 CRON[27868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 07:30:02 Aspire-5100 CRON[27868]: pam_unix(cron:session): session closed for user root
+Nov  3 07:58:15 Aspire-5100 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  3 07:58:15 Aspire-5100 pkexec[28151]: francis: Executing command [USER=root] [TTY=unknown] [CWD=/home/francis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  3 08:17:01 Aspire-5100 CRON[28171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 08:17:01 Aspire-5100 CRON[28171]: pam_unix(cron:session): session closed for user root
+Nov  3 09:17:01 Aspire-5100 CRON[28203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 09:17:01 Aspire-5100 CRON[28203]: pam_unix(cron:session): session closed for user root
+Nov  3 10:17:01 Aspire-5100 CRON[28234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 10:17:01 Aspire-5100 CRON[28234]: pam_unix(cron:session): session closed for user root
+Nov  3 11:17:01 Aspire-5100 CRON[28267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 11:17:01 Aspire-5100 CRON[28267]: pam_unix(cron:session): session closed for user root
+Nov  3 12:17:01 Aspire-5100 CRON[28297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 12:17:01 Aspire-5100 CRON[28297]: pam_unix(cron:session): session closed for user root
+Nov  3 13:17:01 Aspire-5100 CRON[28332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 13:17:01 Aspire-5100 CRON[28332]: pam_unix(cron:session): session closed for user root
+Nov  3 14:17:01 Aspire-5100 CRON[28360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 14:17:01 Aspire-5100 CRON[28360]: pam_unix(cron:session): session closed for user root
+Nov  3 15:17:01 Aspire-5100 CRON[28399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 15:17:01 Aspire-5100 CRON[28399]: pam_unix(cron:session): session closed for user root
+Nov  3 15:44:24 Aspire-5100 sshd[28417]: Accepted password for francis from 180.169.100.18 port 64591 ssh2
+Nov  3 15:44:24 Aspire-5100 sshd[28417]: pam_unix(sshd:session): session opened for user francis by (uid=0)
+Nov  3 15:44:24 Aspire-5100 systemd-logind[603]: New session 26 of user francis.
+Nov  3 16:11:14 Aspire-5100 sudo:  francis : TTY=pts/10 ; PWD=/home/francis/github/Codesys/log ; USER=root ; COMMAND=/bin/cp /var/log/ Acerlog -rf
+Nov  3 16:11:14 Aspire-5100 sudo: pam_unix(sudo:session): session opened for user root by francis(uid=0)
